@@ -7,11 +7,11 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2008-04-06 19:09-0300\n"
+"Last-Translator: Marcos di Silva <mdsmus@gmail.com>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: convertrules.py:12
@@ -21,7 +21,7 @@ msgstr ""
 
 #: convertrules.py:13
 msgid "Please refer to the manual for details, and update manually."
-msgstr ""
+msgstr "Por favor consulte o manual para detalhes e atualize manualmente."
 
 #: convertrules.py:14
 #, python-format
@@ -106,7 +106,7 @@ msgstr ""
 
 #: convertrules.py:739
 msgid "semicolons removed"
-msgstr ""
+msgstr "ponto-e-vírgulas removidos"
 
 #. 40 ?
 #: convertrules.py:795
@@ -189,7 +189,7 @@ msgstr ""
 
 #: convertrules.py:1692
 msgid "removal of automaticMelismata; use melismaBusyProperties instead."
-msgstr ""
+msgstr "retirada do automaticMelismata; use melismaBusyProperties no lugar"
 
 #: convertrules.py:1807
 msgid "\\partcombine syntax change to \\newpartcombine"
@@ -204,11 +204,11 @@ msgstr ""
 msgid ""
 "\n"
 "%s found. Check file manually!\n"
-msgstr ""
+msgstr "%s encontrado. Verifique o arquivo manualmente!\n"
 
 #: convertrules.py:1835
 msgid "Drum notation"
-msgstr ""
+msgstr "Notação de percussão"
 
 #: convertrules.py:1863
 msgid ""
@@ -218,16 +218,16 @@ msgstr ""
 
 #: convertrules.py:1924
 msgid "new syntax for property settings:"
-msgstr ""
+msgstr "nova sintaxe para configuração de propriedades:"
 
 #: convertrules.py:1957
 msgid "Property setting syntax in \\translator{ }"
-msgstr ""
+msgstr "Sintaxe de configuração de propriedade em \\translator{ }"
 
 #: convertrules.py:1978
 #, python-format
 msgid "use %s"
-msgstr ""
+msgstr "use %s"
 
 #: convertrules.py:1995
 msgid "Scheme grob function renaming"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: convertrules.py:2008
 msgid "More Scheme function renaming"
-msgstr ""
+msgstr "Mais renomeação de função Scheme"
 
 #: convertrules.py:2140
 msgid ""
@@ -260,11 +260,11 @@ msgstr ""
 
 #: convertrules.py:2320
 msgid "regularize other identifiers"
-msgstr ""
+msgstr "regularize outros identificadores"
 
 #: convertrules.py:2411
 msgid "LilyPond source must be UTF-8"
-msgstr ""
+msgstr "O código Lilypond deve ser UTF-8"
 
 #: convertrules.py:2414
 msgid "Try the texstrings backend"
@@ -273,11 +273,11 @@ msgstr ""
 #: convertrules.py:2417
 #, python-format
 msgid "Do something like: %s"
-msgstr ""
+msgstr "Faça algo como: %s"
 
 #: convertrules.py:2420
 msgid "Or save as UTF-8 in your editor"
-msgstr ""
+msgstr "Ou salve como UTF-8 em seu editor"
 
 #: convertrules.py:2452
 msgid "\\encoding: smart recode latin1..utf-8. Remove ly:point-and-click"
@@ -340,15 +340,15 @@ msgstr ""
 
 #: convertrules.py:3020
 msgid "all settings related to dashed lines.\n"
-msgstr ""
+msgstr "todas as configurações relacionadas a linhas tracejadas\n"
 
 #: convertrules.py:3021
 msgid "Use \\override ... #'style = #'line for solid lines and\n"
-msgstr ""
+msgstr "Use \\override ... #'style = #'line para linhas sólidas e\\n"
 
 #: convertrules.py:3022
 msgid "\t\\override ... #'style = #'dashed-line for dashed lines."
-msgstr ""
+msgstr "\t\\override ... #'style = #'dashed-line para linhas tracejadas."
 
 #: convertrules.py:3027
 msgid "Use #'style not #'dash-fraction to select solid/dashed lines."
@@ -367,7 +367,7 @@ msgstr ""
 #: fontextract.py:86
 #, python-format
 msgid "Writing fonts to %s"
-msgstr ""
+msgstr "Escrevendo fontes para %s"
 
 #: lilylib.py:102 lilylib.py:153
 #, python-format
@@ -382,7 +382,7 @@ msgstr ""
 #: lilylib.py:220
 #, python-format
 msgid "Usage: %s"
-msgstr ""
+msgstr "Uso: %s"
 
 #: musicexp.py:577
 #, python-format
@@ -397,16 +397,16 @@ msgstr ""
 #: input.cc:104
 #, c-format, python-format
 msgid "error: %s"
-msgstr ""
+msgstr "erro: %s"
 
 #: musicxml.py:272
 msgid "requested time signature, but time sig is unknown"
-msgstr ""
+msgstr "fórmula de compasso pedida, mas fórmula está indefinida"
 
 #: musicxml.py:338
 #, python-format
 msgid "Encountered note at %s with %s duration (no <type> element):"
-msgstr ""
+msgstr "Nota encontrada em %s com %s duração (sem elemento <tipo>):"
 
 #: musicxml.py:372
 #, python-format
@@ -416,7 +416,7 @@ msgstr ""
 #: abc2ly.py:1342 convert-ly.py:71 lilypond-book.py:109 midi2ly.py:849
 #, python-format
 msgid "%s [OPTION]... FILE"
-msgstr ""
+msgstr "%s [OPÇÃO]... ARQUIVO"
 
 #: abc2ly.py:1343
 #, python-format
@@ -428,16 +428,16 @@ msgstr ""
 #: abc2ly.py:1350 convert-ly.py:78 etf2ly.py:1190 lilypond-book.py:175
 #: midi2ly.py:885 musicxml2ly.py:1824 main.cc:161
 msgid "show version number and exit"
-msgstr ""
+msgstr "mostrar número da versão e sair"
 
 #: abc2ly.py:1354 convert-ly.py:82 etf2ly.py:1186 lilypond-book.py:125
 #: midi2ly.py:864 musicxml2ly.py:1808 main.cc:150
 msgid "show this help and exit"
-msgstr ""
+msgstr "mostrar esta ajuda e sair"
 
 #: abc2ly.py:1356 etf2ly.py:1191 midi2ly.py:868
 msgid "write output to FILE"
-msgstr ""
+msgstr "escrever saída para ARQUIVO"
 
 #: abc2ly.py:1358
 msgid "be strict about succes"
@@ -465,11 +465,11 @@ msgstr ""
 
 #: convert-ly.py:34 lilypond-book.py:59
 msgid "Examples:"
-msgstr ""
+msgstr "Exemplos:"
 
 #: convert-ly.py:66 etf2ly.py:1174 lilypond-book.py:105 midi2ly.py:79
 msgid "Distributed under terms of the GNU General Public License."
-msgstr ""
+msgstr "Distribuído sob os termos da Licença Pública Geral GNU"
 
 #: convert-ly.py:67 etf2ly.py:1175 lilypond-book.py:106 midi2ly.py:80
 msgid "It comes with NO WARRANTY."
@@ -477,7 +477,7 @@ msgstr ""
 
 #: convert-ly.py:86 convert-ly.py:106
 msgid "VERSION"
-msgstr ""
+msgstr "VERSÃO"
 
 #: convert-ly.py:88
 msgid "start from VERSION [default: \\version found in file]"
@@ -489,7 +489,7 @@ msgstr ""
 
 #: convert-ly.py:94
 msgid "do not add \\version command if missing"
-msgstr ""
+msgstr "não adicione o comando \\version se estiver faltando"
 
 #: convert-ly.py:100
 msgid "show rules [default: --from=0, --to=@TOPLEVEL_VERSION@]"
@@ -514,7 +514,7 @@ msgstr ""
 #: convert-ly.py:190
 #, python-format
 msgid "Processing `%s'... "
-msgstr ""
+msgstr "Processando `%s'... "
 
 #: convert-ly.py:277 relocate.cc:362 source-file.cc:54
 #, c-format, python-format
