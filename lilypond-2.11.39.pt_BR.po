@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-06 22:15-0300\n"
+"PO-Revision-Date: 2008-04-07 16:09-0300\n"
 "Last-Translator: Marcos di Silva <mdsmus@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -122,7 +122,7 @@ msgstr ""
 #: convertrules.py:2472
 #, python-format
 msgid "remove %s"
-msgstr ""
+msgstr "remova %s"
 
 #: convertrules.py:1164 convertrules.py:1173
 msgid "cluster syntax"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: convertrules.py:1475
 msgid "Remove - before articulation"
-msgstr ""
+msgstr "Remova - antes da articulação"
 
 #: convertrules.py:1515
 #, python-format
@@ -149,7 +149,7 @@ msgstr "%s erro ortográfico"
 
 #: convertrules.py:1521
 msgid "attempting automatic \\figures conversion.  Check results!"
-msgstr ""
+msgstr "tentando conversão automática de \\figures. Confira os resultados!"
 
 #: convertrules.py:1550
 msgid "Swap < > and << >>"
@@ -193,11 +193,11 @@ msgstr "retirada do automaticMelismata; use melismaBusyProperties no lugar"
 
 #: convertrules.py:1807
 msgid "\\partcombine syntax change to \\newpartcombine"
-msgstr ""
+msgstr "sintaxe \\partcombine muda para \\newpartcombine"
 
 #: convertrules.py:1824
 msgid "Drums found. Enclose drum notes in \\drummode"
-msgstr ""
+msgstr "Percussão encontrada. Inclua notas de percussão em \\drummode"
 
 #: convertrules.py:1835 convertrules.py:1842 convertrules.py:1853
 #, python-format
@@ -286,7 +286,7 @@ msgstr ""
 
 #: convertrules.py:2485
 msgid "auto beam settings"
-msgstr ""
+msgstr "configurações de agrupamento automático de colchetes"
 
 #: convertrules.py:2487
 msgid ""
@@ -297,11 +297,11 @@ msgstr ""
 
 #: convertrules.py:2498
 msgid "warn about auto beam settings"
-msgstr ""
+msgstr "previna configurações de agrupamento automático de colchetes"
 
 #: convertrules.py:2624
 msgid "verticalAlignmentChildCallback has been deprecated"
-msgstr ""
+msgstr "verticalAlignmentChildCallback está obsoleto"
 
 #: convertrules.py:2652
 msgid "Remove callbacks property, deprecate XY-extent-callback."
@@ -313,7 +313,7 @@ msgstr ""
 
 #: convertrules.py:2770
 msgid "foobar -> foo-bar for \\paper, \\layout"
-msgstr ""
+msgstr "foobar -> foo-bar para \\paper, \\layout"
 
 #: convertrules.py:2877
 msgid "deprecate \\tempo in \\midi"
@@ -353,7 +353,7 @@ msgstr "\t\\override ... #'style = #'dashed-line para linhas tracejadas."
 
 #: convertrules.py:3027
 msgid "Use #'style not #'dash-fraction to select solid/dashed lines."
-msgstr ""
+msgstr "Usar #'style, não #'dash-fraction para selecionar linhas sólidas/tracejadas."
 
 #: fontextract.py:26
 #, python-format
@@ -363,7 +363,7 @@ msgstr ""
 #: fontextract.py:71
 #, python-format
 msgid "Extracted %s"
-msgstr ""
+msgstr "Extraído %s"
 
 #: fontextract.py:86
 #, python-format
@@ -378,7 +378,7 @@ msgstr ""
 #: lilylib.py:104 lilylib.py:155
 #, python-format
 msgid "Running %s..."
-msgstr ""
+msgstr "Executando %s..."
 
 #: lilylib.py:220
 #, python-format
@@ -388,11 +388,11 @@ msgstr "Uso: %s"
 #: musicexp.py:577
 #, python-format
 msgid "unable to set the music %(music)s for the repeat %(repeat)s"
-msgstr ""
+msgstr "indisponível para definir a música %(music)s para a repetição %(repeat)s"
 
 #: musicexp.py:586
 msgid "encountered repeat without body"
-msgstr ""
+msgstr "encontrada repetição sem body"
 
 #: musicxml.py:13 convert-ly.py:50 lilypond-book.py:85 warn.cc:54 input.cc:96
 #: input.cc:104
@@ -412,7 +412,7 @@ msgstr "Nota encontrada em %s com %s duração (sem elemento <tipo>):"
 #: musicxml.py:372
 #, python-format
 msgid "Unable to find find instrument for ID=%s\n"
-msgstr ""
+msgstr "Indisponível para encontrar instrumento para ID=%s\n"
 
 #: abc2ly.py:1342 convert-ly.py:71 lilypond-book.py:109 midi2ly.py:849
 #, python-format
