@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-06 19:09-0300\n"
+"PO-Revision-Date: 2008-04-06 22:09-0300\n"
 "Last-Translator: Marcos di Silva <mdsmus@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,13 +26,13 @@ msgstr "Por favor consulte o manual para detalhes e atualize manualmente."
 #: convertrules.py:14
 #, python-format
 msgid "%s has been replaced by %s"
-msgstr ""
+msgstr "%s foi substitu√≠do por %s"
 
 #: convertrules.py:24 musicexp.py:16 convert-ly.py:47 lilypond-book.py:82
 #: warn.cc:48 input.cc:90
 #, c-format, python-format
 msgid "warning: %s"
-msgstr ""
+msgstr "aviso: %s"
 
 #: convertrules.py:33 convertrules.py:103
 msgid "\\header { key = concat + with + operator }"
@@ -41,11 +41,11 @@ msgstr ""
 #: convertrules.py:48
 #, python-format
 msgid "deprecated %s"
-msgstr ""
+msgstr "obsoleto %s"
 
 #: convertrules.py:61
 msgid "deprecated \\textstyle, new \\key syntax"
-msgstr ""
+msgstr "\\textstyle obsoleto, nova sintaxe \\key"
 
 #: convertrules.py:80 convertrules.py:2124 convertrules.py:2337
 #: convertrules.py:2512 convertrules.py:2889
@@ -54,11 +54,11 @@ msgstr ""
 
 #: convertrules.py:99
 msgid "new \\header format"
-msgstr ""
+msgstr "novo formato \\header"
 
 #: convertrules.py:133
 msgid "\\translator syntax"
-msgstr ""
+msgstr "sintaxe \\translator"
 
 #: convertrules.py:211
 msgid "\\repeat NUM Music Alternative -> \\repeat FOLDSTR Music Alternative"
@@ -77,19 +77,19 @@ msgstr ""
 
 #: convertrules.py:384
 msgid "new \\notenames format"
-msgstr ""
+msgstr "novo formato \\notenames"
 
 #: convertrules.py:404
 msgid "new tremolo format"
-msgstr ""
+msgstr "novo formato tremolo"
 
 #: convertrules.py:417
 msgid "Staff_margin_engraver deprecated, use Instrument_name_engraver"
-msgstr ""
+msgstr "Staff_margin_engraver obsoleto, use Instrument_name_engraver"
 
 #: convertrules.py:536
 msgid "change property definiton case (eg. onevoice -> oneVoice)"
-msgstr ""
+msgstr "mude caixa da defini√ß√£o de propriedade (eg. onevoice -> oneVoice)"
 
 #: convertrules.py:544
 msgid "new \\textscript markup text"
@@ -98,11 +98,11 @@ msgstr ""
 #: convertrules.py:638
 #, python-format
 msgid "identifier names: %s"
-msgstr ""
+msgstr "nomes identificadores: %s"
 
 #: convertrules.py:679
 msgid "point-and-click argument changed to procedure."
-msgstr ""
+msgstr "argumento aponte-e-clique mudado para processo."
 
 #: convertrules.py:739
 msgid "semicolons removed"
@@ -112,7 +112,7 @@ msgstr "ponto-e-vÌrgulas removidos"
 #: convertrules.py:795
 #, python-format
 msgid "%s property names"
-msgstr ""
+msgstr "nomes de propriedades"
 
 #: convertrules.py:865
 msgid "automaticMelismata turned on by default"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: convertrules.py:1182
 msgid "new Pedal style syntax"
-msgstr ""
+msgstr "nova sintaxe de estilo de Pedal"
 
 #: convertrules.py:1451
 msgid ""
@@ -145,7 +145,7 @@ msgstr ""
 #: convertrules.py:1515
 #, python-format
 msgid "%s misspelling"
-msgstr ""
+msgstr "%s erro ortogr√°fico"
 
 #: convertrules.py:1521
 msgid "attempting automatic \\figures conversion.  Check results!"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: convertrules.py:1550
 msgid "Swap < > and << >>"
-msgstr ""
+msgstr "Troque < > e << >>"
 
 #: convertrules.py:1576
 msgid "Use Scheme code to construct arbitrary note events."
@@ -207,8 +207,9 @@ msgid ""
 msgstr "%s encontrado. Verifique o arquivo manualmente!\n"
 
 #: convertrules.py:1835
+#, fuzzy
 msgid "Drum notation"
-msgstr "NotaÁ„o de percuss„o"
+msgstr "Nota√ß√£o de percuss√£o"
 
 #: convertrules.py:1863
 msgid ""
