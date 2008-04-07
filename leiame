@@ -1,0 +1,27 @@
+Instruções para localização (tradução) do Lilypond para o pt_BR:
+
+A localização do Lilypond está sendo feita com o arquivo .po e o
+controle de versão Git.
+
+O uso básico do Git é:
+1) Baixar o repositório central
+git clone git://genos.mus.br/lilypond-l10n.git
+2) Editar o arquivo lilypond-2.11.39.pt_BR.po
+3) Ao final de algum tempo salvar as mudanças no Git:
+git add lilypond-2.11.39.pt_BR.po
+git commit -m "mensagem que identifique as mudanças feitas"
+4) Atualizar repositório local
+git pull
+5) Formatar patch para enviar ao repositório central:
+git format-patch origin/master
+6) Enviar um e-mail para a lista lilypond-brasil com o arquivo gerado
+pelo format-patch.
+7) O patch é aplicado ao repositório central pelo coordenador do
+projeto.
+8) Atualização do repositório local do usuário
+git pull
+9) Volta ao passo 2.
+
+Para fazer este trabalho é preciso entrar em contato com o grupo de
+usuários de Lilypond no Brasil através da lista
+http://groups.google.com.br/group/lilypond-brasil
