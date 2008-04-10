@@ -274,7 +274,7 @@ msgstr ""
 #: convertrules.py:2417
 #, python-format
 msgid "Do something like: %s"
-msgstr "Faça algo como: %s"
+msgstr "FaÃ§a algo como: %s"
 
 #: convertrules.py:2420
 msgid "Or save as UTF-8 in your editor"
