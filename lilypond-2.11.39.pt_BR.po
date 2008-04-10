@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-09 23:15-0300\n"
+"PO-Revision-Date: 2008-04-10 09:02-0300\n"
 "Last-Translator: Zenith Gurgel Neto <zgurgel@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -550,7 +550,7 @@ msgstr "mostrar garantia e copyright"
 #: lilypond-book.py:57
 msgid ""
 "Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
-msgstr ""
+msgstr "Processar os fragmentos híbridos de HTML, Latex, texinfo ou DocBook documento."
 
 #: lilypond-book.py:64
 msgid "BOOK"
@@ -564,7 +564,7 @@ msgstr "Saindo (%d)..."
 #: lilypond-book.py:103
 #, python-format
 msgid "Copyright (c) %s by"
-msgstr ""
+msgstr "Copyright (c) %s por"
 
 #: lilypond-book.py:113
 msgid "FILTER"
