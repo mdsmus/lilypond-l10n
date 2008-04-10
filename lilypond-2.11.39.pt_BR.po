@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-07 16:09-0300\n"
+"PO-Revision-Date: 2008-04-09 23:15-0300\n"
 "Last-Translator: Zenith Gurgel Neto <zgurgel@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1465,6 +1465,10 @@ msgid ""
 "under certain conditions.  Invoke as `%s --warranty' for more\n"
 "information.\n"
 msgstr ""
+"Este programa é um software livre. Ele é coberto pela Licença Pública\n"
+"Geral GNU e você é bem vindo para mudá-lo e/ou distribuir cópias dele\n"
+"sob certas condições. Execute como `%s --garantia' para mais\n"
+"informação.\n"
 
 #: main.cc:106
 msgid ""
@@ -1482,6 +1486,9 @@ msgid ""
 "the Free Software Foundation, Inc., 59 Temple Place - Suite 330,\n"
 "Boston, MA 02111-1307, USA.\n"
 msgstr ""
+"    Este programa é um software livre; você pode reditribuí-lo e/ou\n"
+"modificá-lo sob os termos da Licença Pública Geral GNU versão 2\n"
+"como publicado pela Free Software Foundation.\n"
 
 #: main.cc:137
 msgid "SYM[=VAL]"
@@ -1513,27 +1520,27 @@ msgstr ""
 
 #: main.cc:145
 msgid "generate DVI (tex backend only)"
-msgstr ""
+msgstr "gere DVI (apenas backend tex)"
 
 #: main.cc:146
 msgid "generate PDF (default)"
-msgstr ""
+msgstr "gere PDF (padrão)"
 
 #: main.cc:147
 msgid "generate PNG"
-msgstr ""
+msgstr "gere PNG"
 
 #: main.cc:148
 msgid "generate PostScript"
-msgstr ""
+msgstr "gere PostScript"
 
 #: main.cc:149
 msgid "generate TeX (tex backend only)"
-msgstr ""
+msgstr "gere TeX (apenas backend tex)"
 
 #: main.cc:151
 msgid "FIELD"
-msgstr ""
+msgstr "CAMPO"
 
 #: main.cc:151
 msgid ""
@@ -1543,11 +1550,11 @@ msgstr ""
 
 #: main.cc:153
 msgid "add DIR to search path"
-msgstr ""
+msgstr "adicione DIR para caminho de busca"
 
 #: main.cc:154
 msgid "use FILE as init file"
-msgstr ""
+msgstr "usar ARQUIVO como arquivo inicial"
 
 #: main.cc:156
 msgid "USER, GROUP, JAIL, DIR"
@@ -1561,7 +1568,7 @@ msgstr ""
 
 #: main.cc:159
 msgid "write output to FILE (suffix will be added)"
-msgstr ""
+msgstr "escrever saída para ARQUIVO (sufixo será adicionado)"
 
 #: main.cc:160
 msgid "relocate using directory of lilypond program"
@@ -1578,7 +1585,7 @@ msgstr ""
 #: main.cc:230
 #, c-format
 msgid "Usage: %s [OPTION]... FILE..."
-msgstr ""
+msgstr "Uso: %s [OPÇÃO]... ARQUIVO..."
 
 #: main.cc:232
 #, c-format
@@ -1588,17 +1595,17 @@ msgstr ""
 #: main.cc:234
 #, c-format
 msgid "LilyPond produces beautiful music notation."
-msgstr ""
+msgstr "Lilypond produz linda notação musical."
 
 #: main.cc:236
 #, c-format
 msgid "For more information, see %s"
-msgstr ""
+msgstr "Para mais informação, veja %s"
 
 #: main.cc:238
 #, c-format
 msgid "Options:"
-msgstr ""
+msgstr "Opções:"
 
 #: main.cc:242
 #, c-format
