@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
 "PO-Revision-Date: 2008-04-07 16:09-0300\n"
-"Last-Translator: Marcos di Silva <mdsmus@gmail.com>\n"
+"Last-Translator: Zenith Gurgel Neto <zgurgel@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -149,7 +149,7 @@ msgstr "%s erro ortográfico"
 
 #: convertrules.py:1521
 msgid "attempting automatic \\figures conversion.  Check results!"
-msgstr "tentando conversão automática de \\figures. Confira os resultados!"
+msgstr "tentando conversão automática de \\figures.  Confira os resultados!"
 
 #: convertrules.py:1550
 msgid "Swap < > and << >>"
@@ -494,19 +494,19 @@ msgstr "não adicione o comando \\version se estiver faltando"
 
 #: convert-ly.py:100
 msgid "show rules [default: --from=0, --to=@TOPLEVEL_VERSION@]"
-msgstr ""
+msgstr "mostrar as regras [padrão: --from=0, --to=@TOPLEVEL_VERSION@]"
 
 #: convert-ly.py:105
 msgid "convert to VERSION [default: @TOPLEVEL_VERSION@]"
-msgstr ""
+msgstr "converter para VERSÃO [padrão: @TOPLEVEL_VERSION@]"
 
 #: convert-ly.py:153
 msgid "Applying conversion: "
-msgstr ""
+msgstr "Aplicando a conversão: "
 
 #: convert-ly.py:166
 msgid "Error while converting"
-msgstr ""
+msgstr "Erro durante a conversão"
 
 #: convert-ly.py:168
 msgid "Stopping at last succesful rule"
@@ -520,17 +520,17 @@ msgstr "Processando `%s'... "
 #: convert-ly.py:277 relocate.cc:362 source-file.cc:54
 #, c-format, python-format
 msgid "cannot open file: `%s'"
-msgstr ""
+msgstr "impossível abrir arquivo: `%s'"
 
 #: convert-ly.py:284
 #, python-format
 msgid "cannot determine version for `%s'.  Skipping"
-msgstr ""
+msgstr "Impossível determinar a versão de `%s'.  Saltando"
 
 #: etf2ly.py:1180
 #, python-format
 msgid "%s [OPTION]... ETF-FILE"
-msgstr ""
+msgstr "%s [OPÇÃO]... ETF-ARQUIVO"
 
 #: etf2ly.py:1181
 msgid ""
@@ -541,11 +541,11 @@ msgstr ""
 
 #: etf2ly.py:1192 midi2ly.py:869 musicxml2ly.py:1866 main.cc:154 main.cc:159
 msgid "FILE"
-msgstr ""
+msgstr "ARQUIVO"
 
 #: etf2ly.py:1194 lilypond-book.py:178 midi2ly.py:886 main.cc:163
 msgid "show warranty and copyright"
-msgstr ""
+msgstr "mostrar garantia e copyright"
 
 #: lilypond-book.py:57
 msgid ""
@@ -554,12 +554,12 @@ msgstr ""
 
 #: lilypond-book.py:64
 msgid "BOOK"
-msgstr ""
+msgstr "LIVRO"
 
 #: lilypond-book.py:72
 #, python-format
 msgid "Exiting (%d)..."
-msgstr ""
+msgstr "Saindo (%d)..."
 
 #: lilypond-book.py:103
 #, python-format
@@ -568,7 +568,7 @@ msgstr ""
 
 #: lilypond-book.py:113
 msgid "FILTER"
-msgstr ""
+msgstr "FILTRO"
 
 #: lilypond-book.py:116
 msgid "pipe snippets through FILTER [convert-ly -n -]"
@@ -581,11 +581,11 @@ msgstr ""
 
 #: lilypond-book.py:127
 msgid "add DIR to include path"
-msgstr ""
+msgstr "adicionar DIRETÓRIO para incluir o caminho"
 
 #: lilypond-book.py:128 lilypond-book.py:135 lilypond-book.py:147 main.cc:153
 msgid "DIR"
-msgstr ""
+msgstr "DIRETÓRIO"
 
 #: lilypond-book.py:133
 msgid "format Texinfo output so that Info will look for images of music in DIR"
@@ -593,7 +593,7 @@ msgstr ""
 
 #: lilypond-book.py:140
 msgid "PAD"
-msgstr ""
+msgstr "CADERNO"
 
 #: lilypond-book.py:142
 msgid ""
@@ -602,19 +602,19 @@ msgstr ""
 
 #: lilypond-book.py:146
 msgid "write output to DIR"
-msgstr ""
+msgstr "escrever a saída para o DIRETÓRIO"
 
 #: lilypond-book.py:151
 msgid "COMMAND"
-msgstr ""
+msgstr "COMANDO"
 
 #: lilypond-book.py:152
 msgid "process ly_files using COMMAND FILE..."
-msgstr ""
+msgstr "processar os arquivos_ly usando COMANDO ARQUIVO..."
 
 #: lilypond-book.py:159
 msgid "create PDF files for use with PDFTeX"
-msgstr ""
+msgstr "criar arquivos PDF para utilização com o PDFTex"
 
 #: lilypond-book.py:163
 msgid ""
@@ -624,12 +624,12 @@ msgstr ""
 
 #: lilypond-book.py:167 midi2ly.py:879 musicxml2ly.py:1829 main.cc:162
 msgid "be verbose"
-msgstr ""
+msgstr "seja prolixo"
 
 #: lilypond-book.py:788
 #, python-format
 msgid "file not found: %s"
-msgstr ""
+msgstr "arquivo não encontrado: %s"
 
 #: lilypond-book.py:1022
 #, python-format
@@ -659,12 +659,12 @@ msgstr ""
 #: lilypond-book.py:1422
 #, python-format
 msgid "Opening filter `%s'"
-msgstr ""
+msgstr "Filtro de abertura `%s'"
 
 #: lilypond-book.py:1439
 #, python-format
 msgid "`%s' failed (%d)"
-msgstr ""
+msgstr "`%s' falhou (%d)"
 
 #: lilypond-book.py:1440
 msgid "The error log is as follows:"
@@ -676,48 +676,48 @@ msgstr ""
 
 #: lilypond-book.py:1623
 msgid "Writing snippets..."
-msgstr ""
+msgstr "Escrevendo os fragmentos..."
 
 #: lilypond-book.py:1628
 msgid "Processing..."
-msgstr ""
+msgstr "Processando..."
 
 #: lilypond-book.py:1632
 msgid "All snippets are up to date..."
-msgstr ""
+msgstr "Todos os fragmentos encontram-se atualizados..."
 
 #: lilypond-book.py:1642
 #, python-format
 msgid "cannot determine format for: %s"
-msgstr ""
+msgstr "Impossível determinar o formato para: %s"
 
 #: lilypond-book.py:1653
 #, python-format
 msgid "%s is up to date."
-msgstr ""
+msgstr "%s está atualizado."
 
 #: lilypond-book.py:1659
 #, python-format
 msgid "Writing `%s'..."
-msgstr ""
+msgstr "Escrevendo `%s'..."
 
 #: lilypond-book.py:1714
 msgid "Output would overwrite input file; use --output."
-msgstr ""
+msgstr "A saída sobrescreveria o arquivo de entrada; use --output."
 
 #: lilypond-book.py:1718
 #, python-format
 msgid "Reading %s..."
-msgstr ""
+msgstr "Lendo %s..."
 
 #: lilypond-book.py:1737
 msgid "Dissecting..."
-msgstr ""
+msgstr "Dissecando..."
 
 #: lilypond-book.py:1753
 #, python-format
 msgid "Compiling %s..."
-msgstr ""
+msgstr "Compilando %s..."
 
 #: lilypond-book.py:1762
 #, python-format
@@ -727,11 +727,11 @@ msgstr ""
 #: lilypond-book.py:1776
 #, python-format
 msgid "Removing `%s'"
-msgstr ""
+msgstr "Removendo `%s'"
 
 #: lilypond-book.py:1809
 msgid "option --psfonts not used"
-msgstr ""
+msgstr "opção --psfonts não utilizada"
 
 #: lilypond-book.py:1810
 msgid "processing with dvips will have no fonts"
@@ -739,24 +739,24 @@ msgstr ""
 
 #: lilypond-book.py:1813
 msgid "DVIPS usage:"
-msgstr ""
+msgstr "uso de DVIPS:"
 
 #: lilypond-book.py:1869
 #, python-format
 msgid "Writing fonts to %s..."
-msgstr ""
+msgstr "Escrevendo fontes em %s..."
 
 #: midi2ly.py:87 lily-library.scm:615 lily-library.scm:624
 msgid "warning: "
-msgstr ""
+msgstr "atenção:"
 
 #: midi2ly.py:90 midi2ly.py:911
 msgid "error: "
-msgstr ""
+msgstr "erro:"
 
 #: midi2ly.py:91
 msgid "Exiting... "
-msgstr ""
+msgstr "Saindo..."
 
 #: midi2ly.py:837
 #, python-format
@@ -774,31 +774,31 @@ msgstr ""
 
 #: midi2ly.py:857 midi2ly.py:872
 msgid "DUR"
-msgstr ""
+msgstr "DURAÇÃO"
 
 #: midi2ly.py:858
 msgid "quantise note durations on DUR"
-msgstr ""
+msgstr "quantizar a duração das notas em DURAÇÃO"
 
 #: midi2ly.py:861
 msgid "print explicit durations"
-msgstr ""
+msgstr "mostrar as durações explícitas"
 
 #: midi2ly.py:865
 msgid "set key: ALT=+sharps|-flats; MINOR=1"
-msgstr ""
+msgstr "atribuir a tonalidade: ALT=+sustenido|-bemol; MENOR=1"
 
 #: midi2ly.py:866
 msgid "ALT[:MINOR]"
-msgstr ""
+msgstr "ALT[:MENOR]"
 
 #: midi2ly.py:871
 msgid "quantise note starts on DUR"
-msgstr ""
+msgstr "quantizar o início das notas em DURAÇÃO"
 
 #: midi2ly.py:874
 msgid "DUR*NUM/DEN"
-msgstr ""
+msgstr "DURAÇÃO*NUMERADOR/DENOMINADOR"
 
 #: midi2ly.py:877
 msgid "allow tuplet durations DUR*NUM/DEN"
@@ -806,15 +806,15 @@ msgstr ""
 
 #: midi2ly.py:889
 msgid "treat every text as a lyric"
-msgstr ""
+msgstr "considerar todos os textos como letras"
 
 #: midi2ly.py:892
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: midi2ly.py:912
 msgid "no files specified on command line."
-msgstr ""
+msgstr "arquivos não especificados na linha de comando."
 
 #: musicxml2ly.py:193 musicxml2ly.py:195
 #, python-format
@@ -855,7 +855,7 @@ msgstr ""
 
 #: musicxml2ly.py:1263
 msgid "cannot find suitable event"
-msgstr ""
+msgstr "Impossível encontram um evento adequado."
 
 #: musicxml2ly.py:1346
 #, python-format
@@ -883,11 +883,11 @@ msgstr ""
 
 #: musicxml2ly.py:1791
 msgid "Converting to LilyPond expressions..."
-msgstr ""
+msgstr "Convertendo em expressões do Lilypond..."
 
 #: musicxml2ly.py:1802
 msgid "musicxml2ly [options] FILE.xml"
-msgstr ""
+msgstr "musicxml2ly [opções] ARQUIVO.xml"
 
 #: musicxml2ly.py:1812
 #, python-format
@@ -916,7 +916,7 @@ msgstr ""
 
 #: musicxml2ly.py:1855
 msgid "LANG"
-msgstr ""
+msgstr "LINGUAGEM"
 
 #: musicxml2ly.py:1857
 msgid ""
