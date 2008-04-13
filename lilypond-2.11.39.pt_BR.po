@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-13 11:07-0300\n"
+"PO-Revision-Date: 2008-04-13 11:34-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1520,30 +1520,42 @@ msgstr ""
 "    Este programa é um software livre; você pode reditribuí-lo e/ou\n"
 "modificá-lo sob os termos da Licença Pública Geral GNU versão 2\n"
 "como publicado pela Free Software Foundation.\n"
+"\n"
+"    Este programa é distribuído na esperança de que será útil,\n"
+"mas SEM QUALQUER GARANTIA; inclusive sem a garantia implicada de\n"
+"COMERCIALIDADE ou APTIDÃO PARA UMA FINALIDADE PARTICULAR.  Veja a\n"
+"Licença Pública Geral GNU para maiores detalhes.\n"
+"\n"
+"    Você deve ter recebido uma cópia da\n"
+"Licença Pública Geral GNU junto com este programa; se não, escreva para\n"
+"a Free Software Foundation, Inc., 59 Temple Place - Suite 330,\n"
+"Boston, MA 02111-1307, USA.\n"
 
 #: main.cc:137
 msgid "SYM[=VAL]"
-msgstr ""
+msgstr "SYM[=VAL]"
 
 #: main.cc:138
 msgid ""
 "set Scheme option SYM to VAL (default: #t).\n"
 "Use -dhelp for help."
 msgstr ""
+"defina opção SYM do Scheme para VAL (padrão: #t).\n"
+"Use -dhelp para ajuda."
 
 #: main.cc:141
 msgid "EXPR"
-msgstr ""
+msgstr "EXPR"
 
 #: main.cc:141
 msgid "evaluate scheme code"
-msgstr ""
+msgstr "evaluate o código scheme"
 
 #. Bug in option parser: --output =foe is taken as an abbreviation
 #. for --output-format.
 #: main.cc:144
 msgid "FORMATs"
-msgstr ""
+msgstr "FORMATOs"
 
 #: main.cc:144
 msgid "dump FORMAT,...  Also as separate options:"
@@ -1585,11 +1597,11 @@ msgstr "adicione DIR para caminho de busca"
 
 #: main.cc:154
 msgid "use FILE as init file"
-msgstr "usar ARQUIVO como arquivo inicial"
+msgstr "use ARQUIVO como arquivo inicial"
 
 #: main.cc:156
 msgid "USER, GROUP, JAIL, DIR"
-msgstr ""
+msgstr "USER, GROUP, JAIL, DIR"
 
 #: main.cc:156
 msgid ""
@@ -1603,7 +1615,7 @@ msgstr "escrever saída para ARQUIVO (sufixo será adicionado)"
 
 #: main.cc:160
 msgid "relocate using directory of lilypond program"
-msgstr ""
+msgstr "realocar usando diretório do programa lilypond"
 
 #: main.cc:203
 #, c-format
@@ -1611,6 +1623,8 @@ msgid ""
 "Copyright (c) %s by\n"
 "%s  and others."
 msgstr ""
+"Copyright (c) %s por\n"
+"%s  e outros."
 
 #. No version number or newline here.  It confuses help2man.
 #: main.cc:230
@@ -1621,7 +1635,7 @@ msgstr "Uso: %s [OPÇÃO]... ARQUIVO..."
 #: main.cc:232
 #, c-format
 msgid "Typeset music and/or produce MIDI from FILE."
-msgstr ""
+msgstr "Escreva música e/ou produza MIDI a partir do ARQUIVO."
 
 #: main.cc:234
 #, c-format
@@ -1641,32 +1655,32 @@ msgstr "Opções:"
 #: main.cc:242
 #, c-format
 msgid "Report bugs via %s"
-msgstr ""
+msgstr "Informe sobre bugs via %s"
 
 #: main.cc:288
 #, c-format
 msgid "expected %d arguments with jail, found: %u"
-msgstr ""
+msgstr "argumentos %d esperados com jail, encontrado: %u"
 
 #: main.cc:302
 #, c-format
 msgid "no such user: %s"
-msgstr ""
+msgstr "nenhum usuário: %s"
 
 #: main.cc:304
 #, c-format
 msgid "cannot get user id from user name: %s: %s"
-msgstr ""
+msgstr "não é possível obter id de usuário a partir do nome do usuário: %s: %s"
 
 #: main.cc:319
 #, c-format
 msgid "no such group: %s"
-msgstr ""
+msgstr "nenhum grupo: %s"
 
 #: main.cc:321
 #, c-format
 msgid "cannot get group id from group name: %s: %s"
-msgstr ""
+msgstr "não é possível obter id de grupo a partir do nome do grupo %s: %s"
 
 #: main.cc:329
 #, c-format
@@ -1676,17 +1690,17 @@ msgstr ""
 #: main.cc:336
 #, c-format
 msgid "cannot change group id to: %d: %s"
-msgstr ""
+msgstr "não é possível alterar id de grupo para: %d: %s"
 
 #: main.cc:342
 #, c-format
 msgid "cannot change user id to: %d: %s"
-msgstr ""
+msgstr "não é possível alterar id de usuário para: %d: %s"
 
 #: main.cc:348
 #, c-format
 msgid "cannot change working directory to: %s: %s"
-msgstr ""
+msgstr "não é possível alterar diretório de trabalho para: %s: %s"
 
 #: main.cc:594
 #, c-format
@@ -1696,7 +1710,7 @@ msgstr ""
 #. FIXME: constant error message.
 #: mark-engraver.cc:129
 msgid "rehearsalMark must have integer value"
-msgstr ""
+msgstr "rehearsalMark deve ter um valor inteiro"
 
 #: mark-engraver.cc:135
 msgid "mark label must be a markup object"
