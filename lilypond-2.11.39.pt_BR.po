@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-10 09:02-0300\n"
+"PO-Revision-Date: 2008-04-13 10:52-0300\n"
 "Last-Translator: Zenith Gurgel Neto <zgurgel@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 #: convertrules.py:12
 #, python-format
 msgid "Not smart enough to convert %s"
-msgstr ""
+msgstr "Não é esperto o bastante para converter %s"
 
 #: convertrules.py:13
 msgid "Please refer to the manual for details, and update manually."
@@ -36,7 +36,7 @@ msgstr "aviso: %s"
 
 #: convertrules.py:33 convertrules.py:103
 msgid "\\header { key = concat + with + operator }"
-msgstr ""
+msgstr "\\header { key = concat + com + operador }"
 
 #: convertrules.py:48
 #, python-format
@@ -50,7 +50,7 @@ msgstr "\\textstyle obsoleto, nova sintaxe \\key"
 #: convertrules.py:80 convertrules.py:2124 convertrules.py:2337
 #: convertrules.py:2512 convertrules.py:2889
 msgid "bump version for release"
-msgstr ""
+msgstr "versão incrementada para lançamento"
 
 #: convertrules.py:99
 msgid "new \\header format"
@@ -62,18 +62,18 @@ msgstr "sintaxe \\translator"
 
 #: convertrules.py:211
 msgid "\\repeat NUM Music Alternative -> \\repeat FOLDSTR Music Alternative"
-msgstr ""
+msgstr "\\repeat NÚMERO Música Alternativa -> \\repeat FOLDSTR Música Alternativa"
 
 #: convertrules.py:254 convertrules.py:828 convertrules.py:1584
 #: convertrules.py:2685
 #, python-format
 msgid "deprecate %s"
-msgstr ""
+msgstr "Substitua %s"
 
 #: convertrules.py:361
 #, python-format
 msgid "deprecate %s "
-msgstr ""
+msgstr "substitua %s"
 
 #: convertrules.py:384
 msgid "new \\notenames format"
@@ -93,7 +93,7 @@ msgstr "mude caixa da definição de propriedade (eg. onevoice -> oneVoice)"
 
 #: convertrules.py:544
 msgid "new \\textscript markup text"
-msgstr ""
+msgstr "novo texto de marcação \\textscript"
 
 #: convertrules.py:638
 #, python-format
@@ -116,7 +116,7 @@ msgstr "nomes de propriedades"
 
 #: convertrules.py:865
 msgid "automaticMelismata turned on by default"
-msgstr ""
+msgstr "automaticMelismata ligado por padrão"
 
 #: convertrules.py:1131 convertrules.py:1893 convertrules.py:2166
 #: convertrules.py:2472
@@ -126,7 +126,7 @@ msgstr "remova %s"
 
 #: convertrules.py:1164 convertrules.py:1173
 msgid "cluster syntax"
-msgstr ""
+msgstr "Sintaxe de grupo"
 
 #: convertrules.py:1182
 msgid "new Pedal style syntax"
@@ -137,6 +137,8 @@ msgid ""
 "New relative mode,\n"
 "Postfix articulations, new text markup syntax, new chord syntax."
 msgstr ""
+"Novo modo relativo,\n"
+"Articulações pós-fixas, nova sintaxe de texto de marcação, nova sintaxe de acorde."
 
 #: convertrules.py:1475
 msgid "Remove - before articulation"
@@ -157,7 +159,7 @@ msgstr "Troque < > e << >>"
 
 #: convertrules.py:1576
 msgid "Use Scheme code to construct arbitrary note events."
-msgstr ""
+msgstr "Use código Scheme para construir eventos nota arbitrários."
 
 #: convertrules.py:1609
 #, python-format
@@ -170,6 +172,12 @@ msgid ""
 "\n"
 "as a substitution text."
 msgstr ""
+"\\outputproperty encontrada,\n"
+"Por favor edite manualmente, usando\n"
+"\n"
+"  \\applyoutput #(outputproperty-compatibility %s '%s <GROB PROPERTY VALUE>)\n"
+"\n"
+"como um texto em substituição"
 
 #: convertrules.py:1623
 msgid ""
@@ -180,12 +188,20 @@ msgid ""
 "* calls of ly:make-pitch and ly:pitch-alteration\n"
 "* keySignature settings made with \\property\n"
 msgstr ""
+"O campo de altereção das alturas Scheme foi multiplicado por 2\n"
+"para suportar acidentes de quarto de tom.  Você deve atualizar as seguintes\n"
+"construções manualmente:\n"
+"\n"
+"* chamadas de ly:make-pitch e ly:pitch-alteration\n"
+"* configurações keySignature feitas com \\property\n"
 
 #: convertrules.py:1633
 msgid ""
 "use symbolic constants for alterations,\n"
 "remove \\outputproperty, move ly:verbose into ly:get-option"
 msgstr ""
+"use constantes simbólicas para alterações,\n"
+"remova \\outputproperty, mova ly:verbose para ly:get-option"
 
 #: convertrules.py:1692
 msgid "removal of automaticMelismata; use melismaBusyProperties instead."
@@ -207,7 +223,6 @@ msgid ""
 msgstr "%s encontrado. Verifique o arquivo manualmente!\n"
 
 #: convertrules.py:1835
-#, fuzzy
 msgid "Drum notation"
 msgstr "Notação de percussão"
 
@@ -216,6 +231,8 @@ msgid ""
 "Drum notation changes, Removing \\chordmodifiers, \\notenames.\n"
 "Harmonic notes. Thread context removed. Lyrics context removed."
 msgstr ""
+"Notação de percução muda, Removendo \\chordmodifiers, \\notenames\n"
+"Notas harmônicas. Contexto da postagem original removido. Contexto de letra de música removido."
 
 #: convertrules.py:1924
 msgid "new syntax for property settings:"
@@ -232,7 +249,7 @@ msgstr "use %s"
 
 #: convertrules.py:1995
 msgid "Scheme grob function renaming"
-msgstr ""
+msgstr "Renomeando função Scheme grob"
 
 #: convertrules.py:2008
 msgid "More Scheme function renaming"
@@ -243,12 +260,16 @@ msgid ""
 "Page layout has been changed, using paper size and margins.\n"
 "textheight is no longer used.\n"
 msgstr ""
+"Desenho de página modificado, usando tamanho de página e margens.\n"
+"altura de texto sem uso.\n"
 
 #: convertrules.py:2259
 msgid ""
 "\\foo -> \\foomode (for chords, notes, etc.)\n"
 "fold \\new FooContext \\foomode into \\foo."
 msgstr ""
+"\\foo -> \\foomode (para acordes, notas, etc.)\n"
+"pacote \\new FooContext \\foomode dentro de \\foo."
 
 #: convertrules.py:2285
 msgid ""
@@ -258,6 +279,11 @@ msgid ""
 "  #(set-global-staff-size <STAFF-HEIGHT-IN-POINT>)\n"
 "\n"
 msgstr ""
+"tamanho da pauta deve ser alterado no nível superior\n"
+"com\n"
+"\n"
+"  #(set-global-staff-size <ALTURA-DO-STAFF-EM-QUESTÃO>)\n"
+"\n"
 
 #: convertrules.py:2320
 msgid "regularize other identifiers"
@@ -269,7 +295,7 @@ msgstr "O código Lilypond deve ser UTF-8"
 
 #: convertrules.py:2414
 msgid "Try the texstrings backend"
-msgstr ""
+msgstr "Tente o formato de saída textrings"
 
 #: convertrules.py:2417
 #, python-format
@@ -282,7 +308,7 @@ msgstr "Ou salve como UTF-8 em seu editor"
 
 #: convertrules.py:2452
 msgid "\\encoding: smart recode latin1..utf-8. Remove ly:point-and-click"
-msgstr ""
+msgstr "\\encoding: recodificação esperta latin..utf-8. Remova ly:aponte-e-clique"
 
 #: convertrules.py:2485
 msgid "auto beam settings"
@@ -294,6 +320,8 @@ msgid ""
 "Auto beam settings must now specify each interesting moment in a measure\n"
 "explicitely; 1/4 is no longer multiplied to cover moments 1/2 and 3/4 too.\n"
 msgstr ""
+"Configurações de colchete automático agora devem especificar cada momento interessante em um compasso\n"
+"explicitamente; 1/4 também não é mais multiplicado para cobrir momentos 1/2 e 3/4."
 
 #: convertrules.py:2498
 msgid "warn about auto beam settings"
@@ -305,7 +333,7 @@ msgstr "verticalAlignmentChildCallback está obsoleto"
 
 #: convertrules.py:2652
 msgid "Remove callbacks property, deprecate XY-extent-callback."
-msgstr ""
+msgstr "Remova propriedade de rechamada, substitua XY-extent-callback."
 
 #: convertrules.py:2663
 msgid "Use grob closures iso. XY-offset-callbacks."
@@ -317,19 +345,19 @@ msgstr "foobar -> foo-bar para \\paper, \\layout"
 
 #: convertrules.py:2877
 msgid "deprecate \\tempo in \\midi"
-msgstr ""
+msgstr "Substitua \\tempo em \\midi"
 
 #: convertrules.py:2912
 msgid "deprecate cautionary-style. Use AccidentalCautionary properties"
-msgstr ""
+msgstr "substitua estilo de prevenção cautionary-style. Use propriedades AccidentalCautionary"
 
 #: convertrules.py:2941
 msgid "Rename accidental glyphs, use glyph-name-alist."
-msgstr ""
+msgstr "Renomeie grifos de acidentes, use glyph-name-alist"
 
 #: convertrules.py:2973
 msgid "edge-text settings for TextSpanner."
-msgstr ""
+msgstr "configurações edge-text para TextSpanner."
 
 #: convertrules.py:2974
 #, python-format
@@ -338,6 +366,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Use\n"
+"\n"
+"%s"
 
 #: convertrules.py:3020
 msgid "all settings related to dashed lines.\n"
