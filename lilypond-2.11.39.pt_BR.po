@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-13 11:34-0300\n"
+"PO-Revision-Date: 2008-04-13 15:46-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1549,7 +1549,7 @@ msgstr "EXPR"
 
 #: main.cc:141
 msgid "evaluate scheme code"
-msgstr "evaluate o código scheme"
+msgstr "computar o código scheme"
 
 #. Bug in option parser: --output =foe is taken as an abbreviation
 #. for --output-format.
