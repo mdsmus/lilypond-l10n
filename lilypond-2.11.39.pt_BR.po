@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-13 18:26-0300\n"
+"PO-Revision-Date: 2008-04-16 19:04-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -957,11 +957,11 @@ msgstr ""
 
 #: musicxml2ly.py:1863
 msgid "do not convert directions (^, _ or -) for articulations, dynamics, etc."
-msgstr ""
+msgstr "não converta direções (^, _ ou -) para articulações, dinâmicas, etc."
 
 #: musicxml2ly.py:1871
 msgid "set output filename to FILE"
-msgstr ""
+msgstr "configurar nome do arquivo de saída para ARQUIVO"
 
 #: musicxml2ly.py:1929
 #, python-format
@@ -971,47 +971,47 @@ msgstr ""
 #: musicxml2ly.py:1985
 #, python-format
 msgid "Input file %s is compressed, extracting raw MusicXML data"
-msgstr ""
+msgstr "Arquivo de entrada %s está comprimido, extraindo dados crus MusicXML"
 
 #: musicxml2ly.py:2011
 #, python-format
 msgid "Reading MusicXML from %s ..."
-msgstr ""
+msgstr "Lendo MusicXML de %s ..."
 
 #: musicxml2ly.py:2039 musicxml2ly.py:2053
 #, python-format
 msgid "Output to `%s'"
-msgstr ""
+msgstr "Saída para `%s'"
 
 #: musicxml2ly.py:2096
 #, python-format
 msgid "Unable to find input file %s"
-msgstr ""
+msgstr "Incapaz de encontrar arquivo de entrada %s"
 
 #: getopt-long.cc:140
 #, c-format
 msgid "option `%s' requires an argument"
-msgstr ""
+msgstr "opção `%s' requer um argumento"
 
 #: getopt-long.cc:144
 #, c-format
 msgid "option `%s' does not allow an argument"
-msgstr ""
+msgstr "opção `%s' não permite um argumento"
 
 #: getopt-long.cc:148
 #, c-format
 msgid "unrecognized option: `%s'"
-msgstr ""
+msgstr "opção desconhecida: `%s'"
 
 #: getopt-long.cc:154
 #, c-format
 msgid "invalid argument `%s' to option `%s'"
-msgstr ""
+msgstr "argumento inválido `%s' para opção `%s'"
 
 #: warn.cc:68 grob.cc:566 input.cc:82
 #, c-format
 msgid "programming error: %s"
-msgstr ""
+msgstr "erro de programação: %s"
 
 #: warn.cc:69 input.cc:83
 msgid "continuing, cross fingers"
@@ -1025,7 +1025,7 @@ msgstr ""
 #: accidental-engraver.cc:277
 #, c-format
 msgid "ignoring unknown accidental rule: %s"
-msgstr ""
+msgstr "ignorando regra de acidentes desconhecida: %s"
 
 #: accidental-engraver.cc:293
 #, c-format
@@ -1039,7 +1039,7 @@ msgstr ""
 
 #: accidental.cc:202
 msgid "natural alteration glyph not found"
-msgstr ""
+msgstr "grifo de alteração natural não encontrado"
 
 #: align-interface.cc:325
 msgid "tried to get a translation for something that is no child of mine"
@@ -1048,7 +1048,7 @@ msgstr ""
 #: all-font-metrics.cc:143
 #, c-format
 msgid "cannot find font: `%s'"
-msgstr ""
+msgstr "não é possível encontrar fonte: `%s'"
 
 #: apply-context-iterator.cc:31
 msgid "\\applycontext argument is not a procedure"
@@ -1057,7 +1057,7 @@ msgstr ""
 #: auto-change-iterator.cc:63 change-iterator.cc:61
 #, c-format
 msgid "cannot change, already in translator: %s"
-msgstr ""
+msgstr "não é possível, já está no tradutor: %s"
 
 #: axis-group-engraver.cc:78
 msgid "Axis_group_engraver: vertical group already has a parent"
@@ -1069,7 +1069,7 @@ msgstr ""
 
 #: axis-group-engraver.cc:80
 msgid "removing this vertical group"
-msgstr ""
+msgstr "removendo este grupo vertical"
 
 #: axis-group-interface.cc:524
 msgid "an outside-staff object should have a direction, defaulting to up"
@@ -1078,54 +1078,54 @@ msgstr ""
 #: bar-check-iterator.cc:73
 #, c-format
 msgid "barcheck failed at: %s"
-msgstr ""
+msgstr "checagem de compasso falhou em: %s"
 
 #: beam-engraver.cc:126
 msgid "already have a beam"
-msgstr ""
+msgstr "já tem um colchete"
 
 #: beam-engraver.cc:202
 msgid "unterminated beam"
-msgstr ""
+msgstr "colchete não finalizado"
 
 #: beam-engraver.cc:244 chord-tremolo-engraver.cc:138
 msgid "stem must have Rhythmic structure"
-msgstr ""
+msgstr "haste deve ter estrutura Rhythmic"
 
 #: beam-engraver.cc:252
 msgid "stem does not fit in beam"
-msgstr ""
+msgstr "haste não cabe no colchete"
 
 #: beam-engraver.cc:253
 msgid "beam was started here"
-msgstr ""
+msgstr "colchete foi iniciado aqui"
 
 #: beam-quanting.cc:307
 msgid "no feasible beam position"
-msgstr ""
+msgstr "posição do colchete impraticável"
 
 #: beam.cc:160
 msgid "removing beam with no stems"
-msgstr ""
+msgstr "removendo colchetes sem hastes"
 
 #: beam.cc:1069
 msgid "no viable initial configuration found: may not find good beam slope"
-msgstr ""
+msgstr "configuração inicial não foi encontrada: pode não encontrar uma boa inclinação de colchete"
 
 #: break-alignment-interface.cc:195
 #, c-format
 msgid "No spacing entry from %s to `%s'"
-msgstr ""
+msgstr "Não há entrada de espaçamento entre %s e `%s'"
 
 #: change-iterator.cc:23
 #, c-format
 msgid "cannot change `%s' to `%s'"
-msgstr ""
+msgstr "não é possível mudar de `%s' para `%s'"
 
 #. FIXME: constant error message.
 #: change-iterator.cc:82
 msgid "cannot find context to switch to"
-msgstr ""
+msgstr "não é possível encontrar contexto para mudar para"
 
 #. We could change the current translator's id, but that would make
 #. errors hard to catch.
@@ -1135,25 +1135,25 @@ msgstr ""
 #: change-iterator.cc:91
 #, c-format
 msgid "not changing to same context type: %s"
-msgstr ""
+msgstr "sem mudanças para o mesmo tipo de contexto: %s"
 
 #. FIXME: uncomprehensable message
 #: change-iterator.cc:95
 msgid "none of these in my family"
-msgstr ""
+msgstr "nenhum destes na minha família"
 
 #: chord-tremolo-engraver.cc:88
 msgid "No tremolo to end"
-msgstr ""
+msgstr "Sem trêmolo para o fim"
 
 #: chord-tremolo-engraver.cc:110
 msgid "unterminated chord tremolo"
-msgstr ""
+msgstr "trêmolo de acorde não finalizado"
 
 #: chord-tremolo-iterator.cc:35
 #, c-format
 msgid "expect 2 elements for chord tremolo, found %d"
-msgstr ""
+msgstr "esperados 2 elementos para trêmolo de acordes, encontrado %d"
 
 #: clef.cc:54
 #, c-format
@@ -1163,26 +1163,26 @@ msgstr "clave `%s' não encontrada"
 #: cluster.cc:110
 #, c-format
 msgid "unknown cluster style `%s'"
-msgstr ""
+msgstr "estilo cluster desconhecido `%s'"
 
 #: cluster.cc:147
 msgid "junking empty cluster"
-msgstr ""
+msgstr "jogando fora cluster vazio"
 
 #: coherent-ligature-engraver.cc:100
 #, c-format
 msgid "Coherent_ligature_engraver: setting `spacing-increment=0.01': ptr=%ul"
-msgstr ""
+msgstr "Coherent_ligature_engraver: configurando `spacing-increment=0.01': ptr=%ul"
 
 #. if we get to here, just put everything on one line
 #: constrained-breaking.cc:167 constrained-breaking.cc:184
 msgid "cannot find line breaking that satisfies constraints"
-msgstr ""
+msgstr "não é possível encontrar quebra de linha que satisfaça obstáculo"
 
 #: context-def.cc:130
 #, c-format
 msgid "program has no such type: `%s'"
-msgstr ""
+msgstr "programa não tem qualquer tipo: `%s'"
 
 #: context-property.cc:30
 msgid "need symbol arguments for \\override and \\revert"
@@ -1312,7 +1312,7 @@ msgstr ""
 #. ligature may not start with 2nd head of pes or flexa
 #: gregorian-ligature-engraver.cc:212
 msgid "cannot apply `\\~' on first head of ligature"
-msgstr ""
+msgstr "não é possível aplicar `\\~' na primeira cabeça da ligadura"
 
 #. (pitch == prev_pitch)
 #: gregorian-ligature-engraver.cc:224
@@ -1388,7 +1388,7 @@ msgstr "alteração não encontrada"
 
 #: ligature-bracket-engraver.cc:62 ligature-engraver.cc:93
 msgid "cannot find start of ligature"
-msgstr ""
+msgstr "não é possível encontrar início da ligadura"
 
 #: ligature-bracket-engraver.cc:75 ligature-engraver.cc:120
 msgid "already have a ligature"
