@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-16 19:04-0300\n"
+"PO-Revision-Date: 2008-04-17 17:44-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1110,7 +1110,7 @@ msgstr "removendo colchetes sem hastes"
 
 #: beam.cc:1069
 msgid "no viable initial configuration found: may not find good beam slope"
-msgstr "configuração inicial não foi encontrada: pode não encontrar uma boa inclinação de colchete"
+msgstr "configuração inicial não foi encontrada: não pode encontrar uma boa inclinação de colchete"
 
 #: break-alignment-interface.cc:195
 #, c-format
@@ -1249,7 +1249,7 @@ msgstr "(de)crescendo não finalizado"
 
 #: extender-engraver.cc:142 extender-engraver.cc:151
 msgid "unterminated extender"
-msgstr ""
+msgstr "extensão não finalizado"
 
 #: font-config.cc:28
 msgid "Initializing FontConfig..."
@@ -1317,7 +1317,7 @@ msgstr "não é possível aplicar `\\~' na primeira cabeça da ligadura"
 #. (pitch == prev_pitch)
 #: gregorian-ligature-engraver.cc:224
 msgid "cannot apply `\\~' on heads with identical pitch"
-msgstr ""
+msgstr "não é possível aplicar `\\~' nas cabeças com altura idêntica"
 
 #: grob-interface.cc:57
 #, c-format
@@ -1392,7 +1392,7 @@ msgstr "não é possível encontrar início da ligadura"
 
 #: ligature-bracket-engraver.cc:75 ligature-engraver.cc:120
 msgid "already have a ligature"
-msgstr ""
+msgstr "já há uma ligadura"
 
 #: ligature-engraver.cc:98
 msgid "no right bound"
@@ -1404,15 +1404,15 @@ msgstr ""
 
 #: ligature-engraver.cc:173
 msgid "unterminated ligature"
-msgstr ""
+msgstr "ligadura não finalizada"
 
 #: ligature-engraver.cc:202
 msgid "ignoring rest: ligature may not contain rest"
-msgstr ""
+msgstr "ignorando pausa: ligadura não pode conter pausa"
 
 #: ligature-engraver.cc:203
 msgid "ligature was started here"
-msgstr ""
+msgstr "ligadura foi iniciada aqui"
 
 #: lily-guile.cc:78
 #, c-format
@@ -1718,15 +1718,15 @@ msgstr ""
 
 #: mensural-ligature-engraver.cc:85
 msgid "ligature with less than 2 heads -> skipping"
-msgstr ""
+msgstr "ligadura com menos que 2 cabeças -> saltando"
 
 #: mensural-ligature-engraver.cc:112
 msgid "cannot determine pitch of ligature primitive -> skipping"
-msgstr ""
+msgstr "não é possível determinar altura da ligadura primitiva -> saltando"
 
 #: mensural-ligature-engraver.cc:126
 msgid "single note ligature - skipping"
-msgstr ""
+msgstr "ligadura de nota simples - saltando"
 
 #: mensural-ligature-engraver.cc:138
 msgid "prime interval within ligature -> skipping"
@@ -1738,7 +1738,7 @@ msgstr ""
 
 #: mensural-ligature-engraver.cc:198
 msgid "semibrevis must be followed by another one -> skipping"
-msgstr ""
+msgstr "semibreve deve ser seguida por uma outra -> saltando"
 
 #: mensural-ligature-engraver.cc:209
 msgid ""
@@ -1774,16 +1774,16 @@ msgstr ""
 #: midi-stream.cc:28
 #, c-format
 msgid "cannot open for write: %s: %s"
-msgstr ""
+msgstr "não é possível abrir para escrever: %s: %s"
 
 #: midi-stream.cc:44
 #, c-format
 msgid "cannot write to file: `%s'"
-msgstr ""
+msgstr "não é possível escrever para arquivo: `%s'"
 
 #: minimal-page-breaking.cc:42
 msgid "Computing page breaks..."
-msgstr ""
+msgstr "Computando quebras de página..."
 
 #: music-iterator.cc:171
 msgid "Sending non-event to context"
@@ -1792,12 +1792,12 @@ msgstr ""
 #: music.cc:140
 #, c-format
 msgid "octave check failed; expected \"%s\", found: \"%s\""
-msgstr ""
+msgstr "verificação de oitava falhou; experado \"%s\", encontrado: \"%s\""
 
 #: music.cc:203
 #, c-format
 msgid "transposition by %s makes alteration larger than double"
-msgstr ""
+msgstr "transposição por %s faz alteração maior que o dobro"
 
 #: new-fingering-engraver.cc:96
 msgid "cannot add text scripts to individual note heads"
@@ -1817,41 +1817,41 @@ msgstr ""
 
 #: note-column.cc:124
 msgid "cannot have note heads and rests together on a stem"
-msgstr ""
+msgstr "não é possível ter cabeças de notas e pausas juntas em uma haste"
 
 #: note-head.cc:63
 #, c-format
 msgid "none of note heads `%s' or `%s' found"
-msgstr ""
+msgstr "nenhuma das cabeças de notas `%s' ou `%s' encontradas"
 
 #: note-heads-engraver.cc:64
 msgid "NoteEvent without pitch"
-msgstr ""
+msgstr "NoteEvent sem altura"
 
 #: open-type-font.cc:33
 #, c-format
 msgid "cannot allocate %lu bytes"
-msgstr ""
+msgstr "não é possível alocar %lu bytes"
 
 #: open-type-font.cc:37
 #, c-format
 msgid "cannot load font table: %s"
-msgstr ""
+msgstr "não é possível carregar tabela de fonte: %s"
 
 #: open-type-font.cc:42
 #, c-format
 msgid "Free type error: %s"
-msgstr ""
+msgstr "Erro de digitação livre: %s"
 
 #: open-type-font.cc:100
 #, c-format
 msgid "unsupported font format: %s"
-msgstr ""
+msgstr "formato de fonte não suportado: %s"
 
 #: open-type-font.cc:102
 #, c-format
 msgid "error reading font file %s: %s"
-msgstr ""
+msgstr "erro lendo arquivo de fonte %s: %s"
 
 #: open-type-font.cc:177
 #, c-format
@@ -1866,21 +1866,21 @@ msgstr ""
 #. find out the ideal number of pages
 #: optimal-page-breaking.cc:56
 msgid "Finding the ideal number of pages..."
-msgstr ""
+msgstr "Encontrando o número ideal de páginas..."
 
 #: optimal-page-breaking.cc:71
 msgid "Fitting music on 1 page..."
-msgstr ""
+msgstr "Ajustando música em 1 página..."
 
 #: optimal-page-breaking.cc:73
 #, c-format
 msgid "Fitting music on %d pages..."
-msgstr ""
+msgstr "Ajustando música em %d páginas"
 
 #: optimal-page-breaking.cc:75
 #, c-format
 msgid "Fitting music on %d or %d pages..."
-msgstr ""
+msgstr "Ajustando música em %d ou %d páginas..."
 
 #: optimal-page-breaking.cc:152 page-turn-page-breaking.cc:226
 #: paper-score.cc:146
@@ -1906,7 +1906,7 @@ msgstr ""
 #: page-turn-page-breaking.cc:275
 #, c-format
 msgid "break starting at page %d"
-msgstr ""
+msgstr "quebra començando na página %d"
 
 #: page-turn-page-breaking.cc:276
 #, c-format
@@ -1938,7 +1938,7 @@ msgstr ""
 #: pango-font.cc:229
 #, c-format
 msgid "no PostScript font name for font `%s'"
-msgstr ""
+msgstr "enm nome de fonte PostScript para fonte `%s'"
 
 #: pango-font.cc:277
 msgid "FreeType face has no PostScript font name"
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: paper-score.cc:105
 msgid "Calculating line breaks..."
-msgstr ""
+msgstr "Caulculando quebras de linha..."
 
 #: paper-score.cc:118
 #, c-format
