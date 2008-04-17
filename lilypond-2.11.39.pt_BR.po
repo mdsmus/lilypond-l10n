@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-17 17:44-0300\n"
+"PO-Revision-Date: 2008-04-17 18:10-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1966,7 +1966,7 @@ msgstr ""
 
 #: paper-score.cc:122
 msgid "Preprocessing graphical objects..."
-msgstr ""
+msgstr "Preprocessando objetos gráficos..."
 
 #: parse-scm.cc:87
 msgid "GUILE signaled an error for the expression beginning here"
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #: performance.cc:43
 msgid "Track..."
-msgstr ""
+msgstr "Pista;;;"
 
 #: performance.cc:72
 msgid "MIDI channel wrapped around"
@@ -1991,11 +1991,11 @@ msgstr ""
 #: performance.cc:101
 #, c-format
 msgid "MIDI output to `%s'..."
-msgstr ""
+msgstr "Saída MIDI para `%s'..."
 
 #: phrasing-slur-engraver.cc:139
 msgid "unterminated phrasing slur"
-msgstr ""
+msgstr "ligadura de fraseada não finalizada"
 
 #: piano-pedal-engraver.cc:286
 #, c-format
@@ -2006,7 +2006,7 @@ msgstr ""
 #: piano-pedal-performer.cc:93
 #, c-format
 msgid "cannot find start of piano pedal: `%s'"
-msgstr ""
+msgstr "não é possível encontrar início do pedal de piano: `%s'"
 
 #: piano-pedal-engraver.cc:347
 #, c-format
@@ -2030,7 +2030,7 @@ msgstr ""
 #: relocate.cc:44
 #, c-format
 msgid "Setting %s to %s"
-msgstr ""
+msgstr "Definindo %s para %s"
 
 #: relocate.cc:64
 #, c-format
@@ -2143,20 +2143,20 @@ msgstr ""
 
 #: script-engraver.cc:103
 msgid "scheme encoding: "
-msgstr ""
+msgstr "encoding scheme: "
 
 #: slur-engraver.cc:82
 #, c-format
 msgid "direction of %s invalid: %d"
-msgstr ""
+msgstr "direção de %s inválida: %d"
 
 #: slur-engraver.cc:151
 msgid "unterminated slur"
-msgstr ""
+msgstr "ligadura não finalizada"
 
 #: slur-engraver.cc:163
 msgid "cannot end slur"
-msgstr ""
+msgstr "não é possível terminar ligadura"
 
 #: slur.cc:353
 #, c-format
@@ -2179,21 +2179,21 @@ msgstr ""
 
 #: stem-engraver.cc:92
 msgid "tremolo duration is too long"
-msgstr ""
+msgstr "duração do trêmolo é muito longa"
 
 #. FIXME:
 #: stem-engraver.cc:129
 #, c-format
 msgid "adding note head to incompatible stem (type = %d)"
-msgstr ""
+msgstr "adicionando cabeça de nota para haste incompatível (tipo = %d)"
 
 #: stem-engraver.cc:131
 msgid "maybe input should specify polyphonic voices"
-msgstr ""
+msgstr "talvez entrada deva especificar vozes polifônicas"
 
 #: stem.cc:105
 msgid "weird stem size, check for narrow beams"
-msgstr ""
+msgstr "tamanho de haste estranho, verifique colchetes estreitos"
 
 #: stem.cc:627
 #, c-format
@@ -2239,29 +2239,29 @@ msgstr ""
 #: time-signature-engraver.cc:64
 #, c-format
 msgid "strange time signature found: %d/%d"
-msgstr ""
+msgstr "fórmula de compasso estranha encontrado: %d/%d"
 
 #. If there is no such symbol, we default to the numbered style.
 #. (Here really with a warning!)
 #: time-signature.cc:83
 #, c-format
 msgid "time signature symbol `%s' not found; reverting to numbered style"
-msgstr ""
+msgstr "símbolo de fórmula de compasso `%s' não encontrado; revertendo para estilo numerado"
 
 #: translator-ctors.cc:53
 #, c-format
 msgid "unknown translator: `%s'"
-msgstr ""
+msgstr "tradutor desconhecido: `%s'"
 
 #: translator-group-ctors.cc:29
 #, c-format
 msgid "fatal error. Couldn't find type: %s"
-msgstr ""
+msgstr "erro fatal. Não é possível encontrar tipo: %s"
 
 #: translator-group.cc:146
 #, c-format
 msgid "cannot find: `%s'"
-msgstr ""
+msgstr "não é possível encontrar: `%s'"
 
 #: translator.cc:347
 #, c-format
@@ -2291,11 +2291,13 @@ msgid ""
 "ignored prefix (es) `%s' of this head according to restrictions of the "
 "selected ligature style"
 msgstr ""
+"ignorado o prefixo (ex) `%s' desta cabeça de acordo com restrições do\n"
+"estilo de ligadura selecionado"
 
 #: vaticana-ligature-engraver.cc:718
 #, c-format
 msgid "Vaticana_ligature_engraver: setting `spacing-increment = %f': ptr =%ul"
-msgstr ""
+msgstr "Vaticana_ligature_engraver: definindo `spacing-increment = %f': ptr =%ul"
 
 #: vaticana-ligature.cc:84
 msgid "flexa-height undefined; assuming 0"
@@ -2328,11 +2330,11 @@ msgstr ""
 
 #: parser.yy:728
 msgid "\\paper cannot be used in \\score, use \\layout instead"
-msgstr ""
+msgstr "\\paper não pode ser usado in \\score, em lugar use \\layout"
 
 #: parser.yy:752
 msgid "need \\paper for paper block"
-msgstr ""
+msgstr "necessário \\paper para bloco paper"
 
 #: parser.yy:1211
 msgid "Grob name should be alphanumeric"
@@ -2340,11 +2342,11 @@ msgstr ""
 
 #: parser.yy:1509
 msgid "second argument must be pitch list"
-msgstr ""
+msgstr "segundo argumento deve ser lista de altura"
 
 #: parser.yy:1536 parser.yy:1541 parser.yy:2006
 msgid "have to be in Lyric mode for lyrics"
-msgstr ""
+msgstr "tem que ter no modo Lyric para letra"
 
 #: parser.yy:1638
 msgid "expecting string as script definition"
@@ -2357,11 +2359,11 @@ msgstr ""
 
 #: parser.yy:1960
 msgid "have to be in Note mode for notes"
-msgstr ""
+msgstr "tem que ter no modo Note para notas"
 
 #: parser.yy:2021
 msgid "have to be in Chord mode for chords"
-msgstr ""
+msgstr "tem que ter no modo Chord para acordes"
 
 #: lexer.ll:179
 msgid "stray UTF-8 BOM encountered"
@@ -2369,12 +2371,12 @@ msgstr ""
 
 #: lexer.ll:183
 msgid "Skipping UTF-8 BOM"
-msgstr ""
+msgstr "Saltando BOM UTF-8"
 
 #: lexer.ll:238
 #, c-format
 msgid "Renaming input to: `%s'"
-msgstr ""
+msgstr "Renomeando entrada para: `%s'"
 
 #: lexer.ll:255
 msgid "quoted string expected after \\version"
@@ -2399,7 +2401,7 @@ msgstr ""
 #: lexer.ll:315
 #, c-format
 msgid "wrong or undefined identifier: `%s'"
-msgstr ""
+msgstr "identificador errado ou indefinido: `%s'"
 
 #. backup rule
 #: lexer.ll:324
