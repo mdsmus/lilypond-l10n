@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-17 18:10-0300\n"
+"PO-Revision-Date: 2008-04-17 18:23-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -2055,22 +2055,22 @@ msgstr ""
 #: relocate.cc:125
 #, c-format
 msgid "Relocation: compile datadir=%s, new datadir=%s"
-msgstr ""
+msgstr "Relocação: compilar datadir=%s, novo datadir=%s"
 
 #: relocate.cc:138
 #, c-format
 msgid "Relocation: framework_prefix=%s"
-msgstr ""
+msgstr "Relocação: framework_prefix=%s"
 
 #: relocate.cc:179
 #, c-format
 msgid "Relocation: is absolute: argv0=%s"
-msgstr ""
+msgstr "Relocação: é absoluta: argv0=%s"
 
 #: relocate.cc:186
 #, c-format
 msgid "Relocation: from cwd: argv0=%s"
-msgstr ""
+msgstr "Relocação: de cwd: argv0=%s"
 
 #: relocate.cc:195
 #, c-format
@@ -2078,68 +2078,70 @@ msgid ""
 "Relocation: from PATH=%s\n"
 "argv0=%s"
 msgstr ""
+"Relocação: de CAMINHO=%s\n"
+"argv0=%s"
 
 #: relocate.cc:229
 msgid "LILYPONDPREFIX is obsolete, use LILYPOND_DATADIR"
-msgstr ""
+msgstr "LILYPONDPREFIX está obsoleto, usar LILYPOND_DATADIR"
 
 #: relocate.cc:356
 #, c-format
 msgid "Relocation file: %s"
-msgstr ""
+msgstr "Arquivo de relocação: %s"
 
 #: relocate.cc:392
 #, c-format
 msgid "Unknown relocation command %s"
-msgstr ""
+msgstr "Comando de relocação desconhecido %s"
 
 #: rest-collision.cc:145
 msgid "cannot resolve rest collision: rest direction not set"
-msgstr ""
+msgstr "não é possível resolver colisão de pausas: direção de pausa não definida"
 
 #: rest-collision.cc:159 rest-collision.cc:204
 msgid "too many colliding rests"
-msgstr ""
+msgstr "excessiva colisão de pausas"
 
 #: rest.cc:132
 #, c-format
 msgid "rest `%s' not found"
-msgstr ""
+msgstr "pausa `%s' não encontrada"
 
 #: score-engraver.cc:67
 #, c-format
 msgid "cannot find `%s'"
-msgstr ""
+msgstr "não é possível encontrar `%s'"
 
 #: score-engraver.cc:69
 msgid "Music font has not been installed properly."
-msgstr ""
+msgstr "Fonte musical não está propriamente instalada."
 
 #: score-engraver.cc:71
 #, c-format
 msgid "Search path `%s'"
-msgstr ""
+msgstr "Procure caminho `%s'"
 
 #: score-engraver.cc:73
 msgid "Aborting"
-msgstr ""
+msgstr "Abortando"
 
 #: score.cc:167
 msgid "already have music in score"
-msgstr ""
+msgstr "já há música na partitura"
 
 #: score.cc:168
 msgid "this is the previous music"
-msgstr ""
+msgstr "esta é a música anterior"
 
 #: score.cc:173
 msgid "errors found, ignoring music expression"
-msgstr ""
+msgstr "erros encontrados, ignorando expressão musical"
 
 #. FIXME:
 #: script-engraver.cc:102
 msgid "do not know how to interpret articulation: "
-msgstr ""
+msgstr "não sabe como interpretar articulação: "
 
 #: script-engraver.cc:103
 msgid "scheme encoding: "
@@ -2388,7 +2390,7 @@ msgstr ""
 
 #: lexer.ll:263
 msgid "integer expected after \\sourcefileline"
-msgstr ""
+msgstr "esperado inteiro após \\sourcefilename"
 
 #: lexer.ll:276
 msgid "EOF found inside a comment"
