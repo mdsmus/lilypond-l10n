@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-20 07:56-0300\n"
+"PO-Revision-Date: 2008-04-20 08:23-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -2029,7 +2029,7 @@ msgstr "ligadura de fraseada não finalizada"
 #: piano-pedal-engraver.cc:286
 #, c-format
 msgid "expect 3 strings for piano pedals, found: %ld"
-msgstr "esperadas 3 strings para pedais de piano, encontradas: %ld"
+msgstr "esperadas 3 cadeias de caracteres (strings) para pedais de piano, encontradas: %ld"
 
 #: piano-pedal-engraver.cc:301 piano-pedal-engraver.cc:312
 #: piano-pedal-performer.cc:93
@@ -2381,7 +2381,7 @@ msgstr "tem que ter no modo Lyric para letra"
 
 #: parser.yy:1638
 msgid "expecting string as script definition"
-msgstr "esperando string como definição de script"
+msgstr "esperando cadeia de caracteres (string) como definição de script"
 
 #: parser.yy:1793 parser.yy:1843
 #, c-format
@@ -2411,11 +2411,11 @@ msgstr "Renomeando entrada para: `%s'"
 
 #: lexer.ll:255
 msgid "quoted string expected after \\version"
-msgstr ""
+msgstr "esperada cadeia de caracteres (string) com aspas após \\version"
 
 #: lexer.ll:259
 msgid "quoted string expected after \\sourcefilename"
-msgstr ""
+msgstr "esperada cadeia de caracteres (string) com aspas após \\sourcefilename"
 
 #: lexer.ll:263
 msgid "integer expected after \\sourcefileline"
@@ -2437,7 +2437,7 @@ msgstr "identificador errado ou indefinido: `%s'"
 #. backup rule
 #: lexer.ll:324
 msgid "end quote missing"
-msgstr ""
+msgstr "faltando aspas de final"
 
 #: lexer.ll:469
 msgid "Brace found at end of lyric.  Did you forget a space?"
@@ -2520,7 +2520,7 @@ msgstr "não foram encontrados quaisquer sistemas na marcação \\score, há um 
 #: define-markup-commands.scm:1310
 #, scheme-format
 msgid "not a valid duration string: ~a"
-msgstr "não é uma string de duração válida: ~s"
+msgstr "não é uma cadeia de caracteres (string) de duração válida: ~s"
 
 #: define-music-types.scm:670
 #, scheme-format
@@ -2621,6 +2621,17 @@ msgid ""
 "  %% Start cut-&-pastable-section\n"
 "  %% ****************************************************************\n"
 msgstr ""
+"O backend PostScript não suporta a saída system-by-system. \n"
+"Para isso use, em vez de PS, o backend EPS,\n"
+"\n"
+"  lilypond -dbackend=eps ARQUIVO\n"
+"\n"
+"Se tiver copiado e colado um fragmento lilypond de uma página web, \n"
+"lembre-se de remover qualquer coisa antes de\n"
+"\n"
+"  %% ****************************************************************\n"
+"  %% Start cut-&-pastable-section\n"
+"  %% ****************************************************************\n"
 
 #: framework-tex.scm:361
 #, scheme-format
