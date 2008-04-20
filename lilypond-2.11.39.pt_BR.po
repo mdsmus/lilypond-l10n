@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-20 08:52-0300\n"
+"PO-Revision-Date: 2008-04-20 11:49-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1574,7 +1574,7 @@ msgstr "FORMATOs"
 
 #: main.cc:144
 msgid "dump FORMAT,...  Also as separate options:"
-msgstr "descarregar em FORMATO,... Também como opções separadas:"
+msgstr "descarrega em FORMATO,... Também como opções separadas:"
 
 #: main.cc:145
 msgid "generate DVI (tex backend only)"
