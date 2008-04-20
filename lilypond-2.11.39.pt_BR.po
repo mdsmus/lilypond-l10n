@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-19 12:19-0300\n"
+"PO-Revision-Date: 2008-04-20 06:08-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -231,7 +231,7 @@ msgid ""
 "Drum notation changes, Removing \\chordmodifiers, \\notenames.\n"
 "Harmonic notes. Thread context removed. Lyrics context removed."
 msgstr ""
-"Notação de percução muda, Removendo \\chordmodifiers, \\notenames\n"
+"Mudança em notação de percussão, Removendo \\chordmodifiers, \\notenames\n"
 "Notas harmônicas. Contexto da postagem original removido. Contexto de letra de música removido."
 
 #: convertrules.py:1924
@@ -490,13 +490,15 @@ msgstr ""
 #: abc2ly.py:1362 convert-ly.py:112 etf2ly.py:1199 lilypond-book.py:181
 #: midi2ly.py:898 musicxml2ly.py:1873
 msgid "Report bugs via"
-msgstr ""
+msgstr "Informe de erros através de"
 
 #: convert-ly.py:32
 msgid ""
 "Update LilyPond input to newer version.  By default, update from the\n"
 "version taken from the \\version command, to the current LilyPond version."
 msgstr ""
+"Atualizar o Lilypond para uma versão mais recente. Por padrãom atualizar a\n"
+"versão obtida pelo comando \\version, através da aual versão do Lilypond"
 
 #: convert-ly.py:34 lilypond-book.py:59
 msgid "Examples:"
@@ -508,7 +510,7 @@ msgstr "Distribuído sob os termos da Licença Pública Geral GNU"
 
 #: convert-ly.py:67 etf2ly.py:1175 lilypond-book.py:106 midi2ly.py:80
 msgid "It comes with NO WARRANTY."
-msgstr ""
+msgstr "Distribuído SEM GARANTIA."
 
 #: convert-ly.py:86 convert-ly.py:106
 msgid "VERSION"
@@ -516,11 +518,11 @@ msgstr "VERSÃO"
 
 #: convert-ly.py:88
 msgid "start from VERSION [default: \\version found in file]"
-msgstr ""
+msgstr "iniciar a partir da VERSÃO [padrão: \\version encontrado no arquivo]"
 
 #: convert-ly.py:91
 msgid "edit in place"
-msgstr ""
+msgstr "editar (in situ)"
 
 #: convert-ly.py:94
 msgid "do not add \\version command if missing"
@@ -544,7 +546,7 @@ msgstr "Erro durante a conversão"
 
 #: convert-ly.py:168
 msgid "Stopping at last succesful rule"
-msgstr ""
+msgstr "Parando à última regra satisfatória"
 
 #: convert-ly.py:190
 #, python-format
@@ -572,6 +574,8 @@ msgid ""
 "Finale product.  etf2ly converts a subset of ETF to a ready-to-use LilyPond "
 "file."
 msgstr ""
+"Enigma Transport Format (ETF) é um formato usado pelo aplicativo Finale da Coda Music Technology.\n"
+"  etf2ly converte um subconjunto de ETF em um arquivo de Lilypond pronto para utilização."
 
 #: etf2ly.py:1192 midi2ly.py:869 musicxml2ly.py:1866 main.cc:154 main.cc:159
 msgid "FILE"
@@ -606,7 +610,7 @@ msgstr "FILTRO"
 
 #: lilypond-book.py:116
 msgid "pipe snippets through FILTER [convert-ly -n -]"
-msgstr ""
+msgstr "direcionar fragmentos através do FILTRO [convert-ly -n -]"
 
 #: lilypond-book.py:120
 msgid ""
@@ -623,7 +627,7 @@ msgstr "DIRETÓRIO"
 
 #: lilypond-book.py:133
 msgid "format Texinfo output so that Info will look for images of music in DIR"
-msgstr ""
+msgstr "formatar a saída Texinfo de modo que Info busque as imagens de música em DIRETÓRIO"
 
 #: lilypond-book.py:140
 msgid "PAD"
@@ -632,7 +636,7 @@ msgstr "CADERNO"
 #: lilypond-book.py:142
 msgid ""
 "pad left side of music to align music inspite of uneven bar numbers (in mm)"
-msgstr ""
+msgstr "preencher o lado esquerdo da música para alinhá-la, apesar do número irregular de compassos (em mm)"
 
 #: lilypond-book.py:146
 msgid "write output to DIR"
@@ -655,6 +659,8 @@ msgid ""
 "extract all PostScript fonts into INPUT.psfonts for LaTeX\n"
 "must use this with dvips -h INPUT.psfonts"
 msgstr ""
+"extrair todas as fontes PostScript em ENTRADA.psfonts para LaTeX\n"
+"deve-se utilizar com dvips -h ENTRADA.psfonts"
 
 #: lilypond-book.py:167 midi2ly.py:879 musicxml2ly.py:1829 main.cc:162
 msgid "be verbose"
@@ -668,27 +674,27 @@ msgstr "arquivo não encontrado: %s"
 #: lilypond-book.py:1022
 #, python-format
 msgid "deprecated ly-option used: %s=%s"
-msgstr ""
+msgstr "opção-ly usada obsoleta: %s=%s"
 
 #: lilypond-book.py:1025
 #, python-format
 msgid "compatibility mode translation: %s=%s"
-msgstr ""
+msgstr "tradução em modo de compatibilidade: %s=%s"
 
 #: lilypond-book.py:1029
 #, python-format
 msgid "deprecated ly-option used: %s"
-msgstr ""
+msgstr "opção-ly utilizada obsoleta: %s"
 
 #: lilypond-book.py:1032
 #, python-format
 msgid "compatibility mode translation: %s"
-msgstr ""
+msgstr "tradução do modo de compatibilidade: %s"
 
 #: lilypond-book.py:1051
 #, python-format
 msgid "ignoring unknown ly option: %s"
-msgstr ""
+msgstr "ignorando opção ly desconhecida: %s"
 
 #: lilypond-book.py:1422
 #, python-format
@@ -702,11 +708,11 @@ msgstr "`%s' falhou (%d)"
 
 #: lilypond-book.py:1440
 msgid "The error log is as follows:"
-msgstr ""
+msgstr "O log de erros está como se segue:"
 
 #: lilypond-book.py:1512
 msgid "cannot find \\begin{document} in LaTeX document"
-msgstr ""
+msgstr "não é possível encontrar \\begin{document} no documento LaTeX"
 
 #: lilypond-book.py:1623
 msgid "Writing snippets..."
@@ -756,7 +762,7 @@ msgstr "Compilando %s..."
 #: lilypond-book.py:1762
 #, python-format
 msgid "Processing include: %s"
-msgstr ""
+msgstr "Processamento de inclusão: %s"
 
 #: lilypond-book.py:1776
 #, python-format
@@ -769,7 +775,7 @@ msgstr "opção --psfonts não utilizada"
 
 #: lilypond-book.py:1810
 msgid "processing with dvips will have no fonts"
-msgstr ""
+msgstr "processamento com dvips não conterá fontes"
 
 #: lilypond-book.py:1813
 msgid "DVIPS usage:"
@@ -795,16 +801,16 @@ msgstr "Saindo..."
 #: midi2ly.py:837
 #, python-format
 msgid "%s output to `%s'..."
-msgstr ""
+msgstr "%s saída para `%s'..."
 
 #: midi2ly.py:850 musicxml2ly.py:1803
 #, python-format
 msgid "Convert %s to LilyPond input."
-msgstr ""
+msgstr "Converter %s ao formato de entrada do Lilypond."
 
 #: midi2ly.py:855
 msgid "print absolute pitches"
-msgstr ""
+msgstr "mostrar alturas absolutas"
 
 #: midi2ly.py:857 midi2ly.py:872
 msgid "DUR"
@@ -836,7 +842,7 @@ msgstr "DURAÇÃO*NUMERADOR/DENOMINADOR"
 
 #: midi2ly.py:877
 msgid "allow tuplet durations DUR*NUM/DEN"
-msgstr ""
+msgstr "permitir duração de quiálteras DURAÇÃO*NUMERADOR/DENOMINADOR"
 
 #: midi2ly.py:889
 msgid "treat every text as a lyric"
@@ -853,14 +859,14 @@ msgstr "arquivos não especificados na linha de comando."
 #: musicxml2ly.py:193 musicxml2ly.py:195
 #, python-format
 msgid "Unprocessed PartGroupInfo %s encountered"
-msgstr ""
+msgstr "Encontrado PartGroupInfo %s não processado"
 
 #: musicxml2ly.py:426
 #, python-format
 msgid ""
 "Encountered rational duration with denominator %s, unable to convert to "
 "lilypond duration"
-msgstr ""
+msgstr "Encontrada duração racional com o denominador %s, impossível converter para uma duração do Lilypond"
 
 #: musicxml2ly.py:609
 #, python-format
@@ -870,22 +876,22 @@ msgstr "modo desconhecido %s, esperando 'major' ou 'minor'"
 #: musicxml2ly.py:647
 #, python-format
 msgid "Encountered unprocessed marker %s\n"
-msgstr ""
+msgstr "Encontrado marcador %s não processado\n"
 
 #: musicxml2ly.py:741
 #, python-format
 msgid "unknown span event %s"
-msgstr ""
+msgstr "evento de prolongamento %s desconhecido"
 
 #: musicxml2ly.py:751
 #, python-format
 msgid "unknown span type %s for %s"
-msgstr ""
+msgstr "tipo de prolongamento desconhecido %s para %s"
 
 #: musicxml2ly.py:1259
 #, python-format
 msgid "drum %s type unknown, please add to instrument_drumtype_dict"
-msgstr ""
+msgstr "tipo de percussão %s desconhecido, favor adicionar ao instrument_drumtype_dict"
 
 #: musicxml2ly.py:1263
 msgid "cannot find suitable event"
@@ -894,12 +900,12 @@ msgstr "Impossível encontram um evento adequado."
 #: musicxml2ly.py:1346
 #, python-format
 msgid "Negative skip %s"
-msgstr ""
+msgstr "Salto %s negativo"
 
 #: musicxml2ly.py:1480
 #, python-format
 msgid "Negative skip found: from %s to %s, difference is %s"
-msgstr ""
+msgstr "Deslocamento negativo encontrado: de %s até %s, a diferença é %s"
 
 #: musicxml2ly.py:1505
 #, python-format
@@ -913,7 +919,7 @@ msgstr "não é possível ter duas ligaduras simultâneas"
 #: musicxml2ly.py:1711
 #, python-format
 msgid "cannot simultaneously have more than one mode: %s"
-msgstr ""
+msgstr "não é possível haver mais de um modo simultaneamente: %s"
 
 #: musicxml2ly.py:1791
 msgid "Converting to LilyPond expressions..."
