@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-18 15:43-0300\n"
+"PO-Revision-Date: 2008-04-19 12:19-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -405,7 +405,7 @@ msgstr "Escrevendo fontes para %s"
 #: lilylib.py:102 lilylib.py:153
 #, python-format
 msgid "Invoking `%s'"
-msgstr ""
+msgstr "Invocando `%s'"
 
 #: lilylib.py:104 lilylib.py:155
 #, python-format
@@ -457,6 +457,8 @@ msgid ""
 "abc2ly converts ABC music files (see\n"
 "%s) to LilyPond input."
 msgstr ""
+"abc2ly convete arquivos de música ABC (veja\n"
+"%s) para entrada em Lilypond."
 
 #: abc2ly.py:1350 convert-ly.py:78 etf2ly.py:1190 lilypond-book.py:175
 #: midi2ly.py:885 musicxml2ly.py:1824 main.cc:161
@@ -656,7 +658,7 @@ msgstr ""
 
 #: lilypond-book.py:167 midi2ly.py:879 musicxml2ly.py:1829 main.cc:162
 msgid "be verbose"
-msgstr "seja prolixo"
+msgstr "é prolixo"
 
 #: lilypond-book.py:788
 #, python-format
@@ -1145,7 +1147,7 @@ msgstr "nenhum destes na minha família"
 
 #: chord-tremolo-engraver.cc:88
 msgid "No tremolo to end"
-msgstr "Sem trêmolo para o fim"
+msgstr "Não há nenhum trêmolo até o final"
 
 #: chord-tremolo-engraver.cc:110
 msgid "unterminated chord tremolo"
@@ -1202,7 +1204,7 @@ msgstr "não é possível encontrar ou criar `%s' chamado `%s'"
 #: context.cc:268
 #, c-format
 msgid "Invalid CreateContext event: Cannot create %s context"
-msgstr ""
+msgstr "Evento CreateContext inválido. Não é possível criar contexto %s"
 
 #: context.cc:380
 #, c-format
@@ -1474,7 +1476,7 @@ msgstr "Processando `%s'"
 
 #: lily-parser.cc:99
 msgid "Parsing..."
-msgstr "Parseando..."
+msgstr "Analizando..."
 
 #: lily-parser.cc:127
 msgid "braces do not match"
@@ -1546,7 +1548,7 @@ msgstr ""
 
 #: main.cc:141
 msgid "EXPR"
-msgstr "EXPR"
+msgstr "EXPRESSÃO"
 
 #: main.cc:141
 msgid "evaluate scheme code"
@@ -1560,7 +1562,7 @@ msgstr "FORMATOs"
 
 #: main.cc:144
 msgid "dump FORMAT,...  Also as separate options:"
-msgstr ""
+msgstr "descarregar em FORMATO,... Também como opções separadas:"
 
 #: main.cc:145
 msgid "generate DVI (tex backend only)"
@@ -1580,7 +1582,7 @@ msgstr "gera PostScript"
 
 #: main.cc:149
 msgid "generate TeX (tex backend only)"
-msgstr "gere TeX (apenas backend tex)"
+msgstr "gera TeX (apenas backend tex)"
 
 #: main.cc:151
 msgid "FIELD"
@@ -1591,14 +1593,16 @@ msgid ""
 "dump header field FIELD to file\n"
 "named BASENAME.FIELD"
 msgstr ""
+"descarrega campo header CAMPO para arquivo\n"
+"nomeado BASENAME.FIELD"
 
 #: main.cc:153
 msgid "add DIR to search path"
-msgstr "adiciona DIR para caminho de busca"
+msgstr "adiciona DIRETÓRIO em caminho de busca"
 
 #: main.cc:154
 msgid "use FILE as init file"
-msgstr "use ARQUIVO como arquivo inicial"
+msgstr "usa ARQUIVO como arquivo inicial"
 
 #: main.cc:156
 msgid "USER, GROUP, JAIL, DIR"
@@ -1609,6 +1613,8 @@ msgid ""
 "chroot to JAIL, become USER:GROUP\n"
 "and cd into DIR"
 msgstr ""
+"chroot em JAIL, torna-se USER:GROUP\n"
+"e cd em DIR"
 
 #: main.cc:159
 msgid "write output to FILE (suffix will be added)"
@@ -1641,7 +1647,7 @@ msgstr "Escreva música e/ou produza MIDI a partir do ARQUIVO."
 #: main.cc:234
 #, c-format
 msgid "LilyPond produces beautiful music notation."
-msgstr "Lilypond produz linda notação musical."
+msgstr "Lilypond produz uma notação musical bonita e elegante."
 
 #: main.cc:236
 #, c-format
@@ -1686,7 +1692,7 @@ msgstr "não é possível obter id de grupo a partir do nome do grupo %s: %s"
 #: main.cc:329
 #, c-format
 msgid "cannot chroot to: %s: %s"
-msgstr ""
+msgstr "não é possível fazer chroot para: %s: %s"
 
 #: main.cc:336
 #, c-format
@@ -2446,7 +2452,7 @@ msgstr ""
 #: backend-library.scm:19 lily.scm:767 ps-to-png.scm:58
 #, scheme-format
 msgid "Invoking `~a'..."
-msgstr ""
+msgstr "Invocando `~a'..."
 
 #: backend-library.scm:28
 #, scheme-format
@@ -2661,7 +2667,7 @@ msgstr ""
 #: lily.scm:664 lily.scm:757
 #, scheme-format
 msgid "failed files: ~S"
-msgstr "arquivos falharam: ~S"
+msgstr "falha em arquivo: ~S"
 
 #: lily.scm:747
 #, scheme-format
