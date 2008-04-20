@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-20 07:26-0300\n"
+"PO-Revision-Date: 2008-04-20 07:56-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -2029,7 +2029,7 @@ msgstr "ligadura de fraseada não finalizada"
 #: piano-pedal-engraver.cc:286
 #, c-format
 msgid "expect 3 strings for piano pedals, found: %ld"
-msgstr ""
+msgstr "esperadas 3 strings para pedais de piano, encontradas: %ld"
 
 #: piano-pedal-engraver.cc:301 piano-pedal-engraver.cc:312
 #: piano-pedal-performer.cc:93
@@ -2077,7 +2077,7 @@ msgid "%s=%s (prepend)\n"
 msgstr "%s=%s (prefixar)\n"
 
 #: relocate.cc:114
-#, c-format, fuzzy
+#, c-format
 msgid "not relocating, no %s/ or current/ found under %s"
 msgstr "não está realocando, não foi encontrado %s/ ou corrente/ encontrado sob %s"
 
@@ -2381,7 +2381,7 @@ msgstr "tem que ter no modo Lyric para letra"
 
 #: parser.yy:1638
 msgid "expecting string as script definition"
-msgstr ""
+msgstr "esperando string como definição de script"
 
 #: parser.yy:1793 parser.yy:1843
 #, c-format
@@ -2505,22 +2505,22 @@ msgstr "símbolo ~S redefinido"
 #: define-event-classes.scm:119
 #, scheme-format
 msgid "event class ~A seems to be unused"
-msgstr ""
+msgstr "Aparentemente classe de evento ~A não está sendo utilizada"
 
 #. should be programming-error
 #: define-event-classes.scm:125
 #, scheme-format
 msgid "translator listens to nonexisting event class ~A"
-msgstr ""
+msgstr "tradutor obedecendo a classe de evento inexistente ~A"
 
 #: define-markup-commands.scm:296
 msgid "no systems found in \\score markup, does it have a \\layout block?"
-msgstr ""
+msgstr "não foram encontrados quaisquer sistemas na marcação \\score, há um bloco \\layout?"
 
 #: define-markup-commands.scm:1310
 #, scheme-format
 msgid "not a valid duration string: ~a"
-msgstr ""
+msgstr "não é uma string de duração válida: ~s"
 
 #: define-music-types.scm:670
 #, scheme-format
@@ -2530,7 +2530,7 @@ msgstr "símbolo esperado: ~S"
 #: define-music-types.scm:673
 #, scheme-format
 msgid "cannot find music object: ~S"
-msgstr ""
+msgstr "não é possível encontrar objeto musical: ~S"
 
 #: define-music-types.scm:692
 #, scheme-format
@@ -2539,72 +2539,72 @@ msgstr "tipo de repetição desconhecido `~S'"
 
 #: define-music-types.scm:693
 msgid "See music-types.scm for supported repeats"
-msgstr ""
+msgstr "Veja music-types.scm para repetições suportadas"
 
 #: document-backend.scm:91
 #, scheme-format
 msgid "pair expected in doc ~s"
-msgstr ""
+msgstr "esperado par em doc ~s"
 
 #: document-backend.scm:135
 #, scheme-format
 msgid "cannot find interface for property: ~S"
-msgstr ""
+msgstr "não é possível encontrar interface para propriedade: ~S"
 
 #: document-backend.scm:145
 #, scheme-format
 msgid "unknown Grob interface: ~S"
-msgstr ""
+msgstr "interface de Objetos Gráficos (Grob) desconhecida: ~S"
 
 #: documentation-lib.scm:45
 #, scheme-format
 msgid "Processing ~S..."
-msgstr ""
+msgstr "Processando ~S..."
 
 #: documentation-lib.scm:154
 #, scheme-format
 msgid "Writing ~S..."
-msgstr ""
+msgstr "Escrevendo ~S;;;"
 
 #: documentation-lib.scm:176
 #, scheme-format
 msgid "cannot find description for property ~S (~S)"
-msgstr ""
+msgstr "não é possível encontrar descrição para propriedade ~S (~S)"
 
 #: framework-eps.scm:90
 #, scheme-format
 msgid "Writing ~a..."
-msgstr ""
+msgstr "Escreveno ~a..."
 
 #: framework-ps.scm:282
 #, scheme-format
 msgid "cannot embed ~S=~S"
-msgstr ""
+msgstr "não é possível embutir ~S=~S"
 
 #: framework-ps.scm:335
 #, scheme-format
 msgid "cannot extract file matching ~a from ~a"
-msgstr ""
+msgstr "não é possível extrair arquivo correspondendo a ~a de ~a"
 
 #: framework-ps.scm:352
 #, scheme-format
 msgid "do not know how to embed ~S=~S"
-msgstr ""
+msgstr "não sabemos como embutir ~S=~S"
 
 #: framework-ps.scm:383
 #, scheme-format
 msgid "do not know how to embed font ~s ~s ~s"
-msgstr ""
+msgstr "não sabemos como embutir fonte ~s ~s ~s"
 
 #: framework-ps.scm:750
 #, scheme-format
 msgid "cannot convert <stdout> to ~S"
-msgstr ""
+msgstr "não é possível converter <stdout> para ~S"
 
 #: framework-ps.scm:769 framework-ps.scm:772
 #, scheme-format
 msgid "cannot generate ~S using the postscript back-end"
-msgstr ""
+msgstr "não é possível gerar ~S usando o back-end postscript"
 
 #: framework-ps.scm:779
 msgid ""
@@ -2625,35 +2625,35 @@ msgstr ""
 #: framework-tex.scm:361
 #, scheme-format
 msgid "TeX file name must not contain whitespace: `~a'"
-msgstr ""
+msgstr "O nome do arquivo TeX não deve conter espaços vazios: `~a'"
 
 #: graphviz.scm:53
 #, scheme-format
 msgid "Writing graph `~a'..."
-msgstr ""
+msgstr "Escrevendo gráfico `~a'..."
 
 #: layout-beam.scm:29
 #, scheme-format
 msgid "Error in beam quanting.  Expected (~S,~S) found ~S."
-msgstr ""
+msgstr "Erro na quantização de colchetes.  Esperados (~S,~S), encontrados ~S."
 
 #: layout-beam.scm:46
 #, scheme-format
 msgid "Error in beam quanting.  Expected ~S 0, found ~S."
-msgstr ""
+msgstr "Erro na quantização de colchetes.  Esperados ~S 0, encontrados ~S."
 
 #: layout-page-layout.scm:124
 msgid "Can't fit systems on page -- ignoring between-system-padding"
-msgstr ""
+msgstr "Não é possível ajustar sistemas na página -- ignorando between-system-padding"
 
 #: layout-page-layout.scm:458
 msgid "Calculating page breaks..."
-msgstr ""
+msgstr "Calculando quebras de página..."
 
 #: lily-library.scm:583
 #, scheme-format
 msgid "unknown unit: ~S"
-msgstr ""
+msgstr "unidade desconhecida: ~S"
 
 #: lily-library.scm:617
 #, scheme-format
@@ -2662,22 +2662,22 @@ msgstr "nenhuma definição \\version encontrada, por favor adicione~apara futur
 
 #: lily-library.scm:625
 msgid "old relative compatibility not used"
-msgstr ""
+msgstr "não foi usada compatibilidade com modo relativo antigo"
 
 #: lily.scm:177
 #, scheme-format
 msgid "cannot find: ~A"
-msgstr ""
+msgstr "não é possível encontrar: ~A"
 
 #: lily.scm:242
 #, scheme-format
 msgid "wrong type for argument ~a.  Expecting ~a, found ~s"
-msgstr ""
+msgstr "tupo errado para argumento ~a.  Esperando ~a, encontrado ~s"
 
 #: lily.scm:634
 #, scheme-format
 msgid "job ~a terminated with signal: ~a"
-msgstr ""
+msgstr "tarefa ~a terminada com sinal: ~a"
 
 #: lily.scm:637
 #, scheme-format
@@ -2685,6 +2685,8 @@ msgid ""
 "logfile ~a (exit ~a):\n"
 "~a"
 msgstr ""
+"arquivo de registro (log) ~a (saída ~a):\n"
+"~a"
 
 #: lily.scm:664 lily.scm:757
 #, scheme-format
@@ -2698,113 +2700,113 @@ msgstr "Redirecionando saída pra ~a..."
 
 #: ly-syntax-constructors.scm:40
 msgid "Music head function must return Music object"
-msgstr ""
+msgstr "A função principal da música deve retornar um Objeto Musical"
 
 #: ly-syntax-constructors.scm:139
 #, scheme-format
 msgid "Invalid property operation ~a"
-msgstr ""
+msgstr "Operação de propriedade inválida ~a"
 
 #: markup.scm:124
 #, scheme-format
 msgid "Wrong number of arguments.  Expect: ~A, found ~A: ~S"
-msgstr ""
+msgstr "Número errado de argumentos.  Esperados: ~A, encontrados ~A: ~S"
 
 #: markup.scm:130
 #, scheme-format
 msgid "Invalid argument in position ~A.  Expect: ~A, found: ~S."
-msgstr ""
+msgstr "Argumento inválido na posição ~A.  Esperados: ~A, encontrados: ~S."
 
 #: music-functions.scm:228
 msgid "More alternatives than repeats.  Junking excess alternatives"
-msgstr ""
+msgstr "Mais alternativas que repetições.  Descartando alternativas excedentes"
 
 #: music-functions.scm:240
 #, scheme-format
 msgid "invalid tremolo repeat count: ~a"
-msgstr ""
+msgstr "número de repetições inválido para o trêmolo: ~a"
 
 #: music-functions.scm:248
 #, scheme-format
 msgid "expecting 2 elements for chord tremolo, found ~a"
-msgstr ""
+msgstr "esperando 2 elementos para o trêmolo de acorde, encontrado(s) ~a"
 
 #: music-functions.scm:564
 #, scheme-format
 msgid "music expected: ~S"
-msgstr ""
+msgstr "música esperada: ~S"
 
 #. FIXME: uncomprehensable message
 #: music-functions.scm:614
 #, scheme-format
 msgid "Bar check failed.  Expect to be at ~a, instead at ~a"
-msgstr ""
+msgstr "Verificação de compasso falhou. Esperava-se ~a, em lugar de ~a"
 
 #: music-functions.scm:764
 #, scheme-format
 msgid "cannot find quoted music: `~S'"
-msgstr ""
+msgstr "não é possível encontrar música citada: `~S'"
 
 #: music-functions.scm:961
 #, scheme-format
 msgid "unknown accidental style: ~S"
-msgstr ""
+msgstr "estilo de acidente desconhecido: ~S"
 
 #: output-ps.scm:276
 msgid "utf-8-string encountered in PS backend"
-msgstr ""
+msgstr "encontrada utf-8-string no backend de PostScript (PS)"
 
 #: output-svg.scm:45
 #, scheme-format
 msgid "undefined: ~S"
-msgstr ""
+msgstr "indefinido: ~S"
 
 #: output-svg.scm:135
 #, scheme-format
 msgid "cannot decypher Pango description: ~a"
-msgstr ""
+msgstr "não é possível decifrar a descrição de Pango: ~a"
 
 #: output-tex.scm:96
 #, scheme-format
 msgid "cannot find ~a in ~a"
-msgstr ""
+msgstr "não é possível encontrar ~a em ~a"
 
 #: paper.scm:85
 msgid "set-global-staff-size: not in toplevel scope"
-msgstr ""
+msgstr "set-global-staff-size: não está no nível mais alto do escopo"
 
 #: paper.scm:133
 #, scheme-format
 msgid "This is not a \\layout {} object, ~S"
-msgstr ""
+msgstr "Isto não é um objeto \\layout {}, ~S"
 
 #: paper.scm:145
 #, scheme-format
 msgid "Unknown papersize: ~a"
-msgstr ""
+msgstr "Tamanho de papel desconhecido: ~a"
 
 #. TODO: should raise (generic) exception with throw, and catch
 #. that in parse-scm.cc
 #: paper.scm:160
 msgid "Must use #(set-paper-size .. ) within \\paper { ... }"
-msgstr ""
+msgstr "Deve usar #(set-paper-size .. ) dentro de \\paper { ... }"
 
 #: parser-clef.scm:129
 #, scheme-format
 msgid "unknown clef type `~a'"
-msgstr ""
+msgstr "tipo de clave desconhecida `~a'"
 
 #: parser-clef.scm:130
 #, scheme-format
 msgid "supported clefs: ~a"
-msgstr ""
+msgstr "claves suportadas: ~a"
 
 #: ps-to-png.scm:64
 #, scheme-format
 msgid "~a exited with status: ~S"
-msgstr ""
+msgstr "~a saiu com status: ~S"
 
 #: to-xml.scm:180
 #, scheme-format
 msgid "assertion failed: ~S"
-msgstr ""
+msgstr "assertiva falhou: ~S"
