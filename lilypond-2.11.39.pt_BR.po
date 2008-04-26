@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lilypond 2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-04-20 11:49-0300\n"
+"PO-Revision-Date: 2008-04-26 18:58-0300\n"
 "Last-Translator: \n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "\\repeat NÚMERO Música Alternativa -> \\repeat FOLDSTR Música Alterna
 #: convertrules.py:2685
 #, python-format
 msgid "deprecate %s"
-msgstr "Substitua %s"
+msgstr "substitua %s"
 
 #: convertrules.py:361
 #, python-format
@@ -126,7 +126,7 @@ msgstr "remova %s"
 
 #: convertrules.py:1164 convertrules.py:1173
 msgid "cluster syntax"
-msgstr "Sintaxe de grupo"
+msgstr "Sintaxe cluster (de grupo)"
 
 #: convertrules.py:1182
 msgid "new Pedal style syntax"
@@ -193,7 +193,7 @@ msgstr ""
 "construções manualmente:\n"
 "\n"
 "* chamadas de ly:make-pitch e ly:pitch-alteration\n"
-"* configurações keySignature feitas com \\property\n"
+"* configurações keySignature (armadura de clave) feitas com \\property\n"
 
 #: convertrules.py:1633
 msgid ""
@@ -213,7 +213,7 @@ msgstr "sintaxe \\partcombine muda para \\newpartcombine"
 
 #: convertrules.py:1824
 msgid "Drums found. Enclose drum notes in \\drummode"
-msgstr "Percussão encontrada. Inclua notas de percussão em \\drummode"
+msgstr "Percussão encontrada. Inclua notas de percussão dentro de \\drummode"
 
 #: convertrules.py:1835 convertrules.py:1842 convertrules.py:1853
 #, python-format
@@ -232,7 +232,8 @@ msgid ""
 "Harmonic notes. Thread context removed. Lyrics context removed."
 msgstr ""
 "Mudança em notação de percussão, Removendo \\chordmodifiers, \\notenames\n"
-"Notas harmônicas. Contexto da postagem original removido. Contexto de letra de música removido."
+"Notas harmônicas. Contexto Thread (postagem original) removido.\n"
+"Contexto de letra de música removido."
 
 #: convertrules.py:1924
 msgid "new syntax for property settings:"
@@ -249,7 +250,7 @@ msgstr "use %s"
 
 #: convertrules.py:1995
 msgid "Scheme grob function renaming"
-msgstr "Renomeando função de objeto gráfico Scheme"
+msgstr "Renomeando função de grob (objeto gráfico) Scheme"
 
 #: convertrules.py:2008
 msgid "More Scheme function renaming"
@@ -279,7 +280,7 @@ msgid ""
 "  #(set-global-staff-size <STAFF-HEIGHT-IN-POINT>)\n"
 "\n"
 msgstr ""
-"tamanho da pauta deve ser alterado no nível superior\n"
+"tamanho da pauta deve ser alterado no nível mais alto\n"
 "com\n"
 "\n"
 "  #(set-global-staff-size <ALTURA-DO-STAFF-EM-QUESTÃO>)\n"
@@ -788,7 +789,7 @@ msgstr "Escrevendo fontes em %s..."
 
 #: midi2ly.py:87 lily-library.scm:615 lily-library.scm:624
 msgid "warning: "
-msgstr "atenção:"
+msgstr "aviso:"
 
 #: midi2ly.py:90 midi2ly.py:911
 msgid "error: "
