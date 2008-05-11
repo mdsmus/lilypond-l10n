@@ -1,18 +1,20 @@
+# translation of lilypond-2.11.39.po to
 # Translation of LilyPond.
 # Copyright (C) 2008 Han-Wen Nienhuys, Jan Nieuwenhuizen
 # This file is distributed under the same license as lilypond package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lilypond 2.11.39\n"
+"Project-Id-Version: lilypond-2.11.39\n"
 "Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2008-02-14 15:55+0100\n"
-"PO-Revision-Date: 2008-05-10 19:02-0300\n"
+"PO-Revision-Date: 2008-05-10 23:13-0300\n"
 "Last-Translator: \n"
-"Language-Team: pt_BR <LL@li.org>\n"
+"Language-Team:  <pt@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: convertrules.py:12
 #, python-format
@@ -126,7 +128,7 @@ msgstr "remova %s"
 
 #: convertrules.py:1164 convertrules.py:1173
 msgid "cluster syntax"
-msgstr "Sintaxe cluster (de grupo)"
+msgstr "sintaxe cluster (de grupo)"
 
 #: convertrules.py:1182
 msgid "new Pedal style syntax"
@@ -220,7 +222,9 @@ msgstr "Percussão encontrada. Inclua notas de percussão dentro de \\drummode"
 msgid ""
 "\n"
 "%s found. Check file manually!\n"
-msgstr "\n%s encontrado. Verifique o arquivo manualmente!\n"
+msgstr ""
+"\n"
+"%s encontrado. Verifique o arquivo manualmente!\n"
 
 #: convertrules.py:1835
 msgid "Drum notation"
@@ -231,7 +235,7 @@ msgid ""
 "Drum notation changes, Removing \\chordmodifiers, \\notenames.\n"
 "Harmonic notes. Thread context removed. Lyrics context removed."
 msgstr ""
-"Mudança em notação de percussão, Removendo \\chordmodifiers, \\notenames\n"
+"Mudança em notação de percussão, Removendo \\chordmodifiers, \\notenames.\n"
 "Notas harmônicas. Contexto Thread (postagem original) removido.\n"
 "Contexto de letra de música removido."
 
@@ -587,8 +591,7 @@ msgid "show warranty and copyright"
 msgstr "mostra garantia e copyright"
 
 #: lilypond-book.py:57
-msgid ""
-"Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
+msgid "Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
 msgstr "Processar os fragmentos híbridos de HTML, Latex, texinfo ou DocBook documento."
 
 #: lilypond-book.py:64
@@ -614,8 +617,7 @@ msgid "pipe snippets through FILTER [convert-ly -n -]"
 msgstr "direcionar fragmentos através do FILTRO [convert-ly -n -]"
 
 #: lilypond-book.py:120
-msgid ""
-"use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
+msgid "use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
 msgstr "usar formato de saída FORMATO (texi [padrão], texi-html, latex, html, docbook"
 
 #: lilypond-book.py:127
@@ -635,8 +637,7 @@ msgid "PAD"
 msgstr "CADERNO"
 
 #: lilypond-book.py:142
-msgid ""
-"pad left side of music to align music inspite of uneven bar numbers (in mm)"
+msgid "pad left side of music to align music inspite of uneven bar numbers (in mm)"
 msgstr "preencher o lado esquerdo da música para alinhá-la, apesar do número irregular de compassos (em mm)"
 
 #: lilypond-book.py:146
@@ -690,7 +691,7 @@ msgstr "opção-ly utilizada obsoleta: %s"
 #: lilypond-book.py:1032
 #, python-format
 msgid "compatibility mode translation: %s"
-msgstr "tradução do modo de compatibilidade: %s"
+msgstr "tradução em modo de compatibilidade: %s"
 
 #: lilypond-book.py:1051
 #, python-format
@@ -872,7 +873,7 @@ msgstr "Encontrada duração racional com o denominador %s, impossível converte
 #: musicxml2ly.py:609
 #, python-format
 msgid "unknown mode %s, expecting 'major' or 'minor'"
-msgstr "modo desconhecido %s, esperando 'major' ou 'minor'"
+msgstr "modo desconhecido %s, esperando 'maior' ou 'menor'"
 
 #: musicxml2ly.py:647
 #, python-format
@@ -969,7 +970,7 @@ msgid ""
 "'deutsch' for deutsch.ly"
 msgstr ""
 "usa um arquivo de linguagem diferente 'LINGUAGEM.ly ' correspondente aos nomes de notas, e.g. \n"
-"'deutsch' para deutsch.ly"
+"'deutsch' (alemão) para deutsch.ly"
 
 #: musicxml2ly.py:1863
 msgid "do not convert directions (^, _ or -) for articulations, dynamics, etc."
@@ -1036,7 +1037,7 @@ msgstr "continuando, dedos cruzados"
 #: accidental-engraver.cc:250
 #, c-format
 msgid "accidental typesetting list must begin with context-name: %s"
-msgstr "lista de tipografia de acidentes deve iniciar como o nome-do-contexto: %s"
+msgstr "lista de tipografia de acidentes deve iniciar com o nome-do-contexto: %s"
 
 #: accidental-engraver.cc:277
 #, c-format
@@ -1343,7 +1344,7 @@ msgstr "Interface desconhecida `%s'"
 #: grob-interface.cc:68
 #, c-format
 msgid "Grob `%s' has no interface for property `%s'"
-msgstr "Grob `%s' não tem interface para propriedade `%s'"
+msgstr "Objeto gráfico (Grob) `%s' não tem interface para propriedade `%s'"
 
 #: grob-property.cc:34
 #, c-format
@@ -1786,7 +1787,7 @@ msgstr "caso de fracasso inesperado"
 
 #: mensural-ligature.cc:141
 msgid "Mensural_ligature: unexpected case fall-through"
-msgstr "Mensural-ligature: caso de fracasso inesperado"
+msgstr "Mensural_ligature: caso de fracasso inesperado"
 
 #: mensural-ligature.cc:192
 msgid "Mensural_ligature: (join_right == 0)"
@@ -2175,7 +2176,7 @@ msgstr "não sabe como interpretar articulação: "
 
 #: script-engraver.cc:103
 msgid "scheme encoding: "
-msgstr "esquema de codificação: "
+msgstr "codificação de scheme: "
 
 #: slur-engraver.cc:82
 #, c-format
@@ -2346,7 +2347,7 @@ msgstr "Vaticana_ligature: união nula (delta_pitch == 0)"
 #. fixme: be more verbose.
 #: volta-engraver.cc:100
 msgid "cannot end volta spanner"
-msgstr "não é possível finalizar a o extensor volta"
+msgstr "não é possível finalizar o extensor volta"
 
 #: volta-engraver.cc:110
 msgid "already have a volta spanner, ending that one prematurely"
@@ -2354,7 +2355,7 @@ msgstr "já há um extensor volta, finalizando-o prematuramente"
 
 #: volta-engraver.cc:114
 msgid "also already have an ended spanner"
-msgstr "também já existe um extensor de texto finalizado"
+msgstr "também já existe um extensor finalizado"
 
 #: volta-engraver.cc:115
 msgid "giving up"
@@ -2823,3 +2824,4 @@ msgstr "~a saiu com status: ~S"
 #, scheme-format
 msgid "assertion failed: ~S"
 msgstr "assertiva falhou: ~S"
+
